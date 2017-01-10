@@ -1,0 +1,2466 @@
+entry .textlib/__mulw/0x004003e8 = {
+0x004003e8	<-
+0x004003f4	->	jump?	.textlib/__mulw/L_BB13___mulw/0x00400448	0x004003f6
+0x004003f6	<-
+0x00400414	->	jump?	.textlib/__mulw/L__0_4610/0x00400438	0x0040041a
+0x0040041a	<-
+0x00400420	<-
+0x00400432	->	jump?	.textlib/__mulw/L__0_5122/0x00400420	0x00400438
+0x00400438	<-
+0x00400448	<-
+0x0040044a	->	rts!	<unknown> 
+}
+entry .textlib/__float32_mul_float32_float32/0x004069f8 = {
+0x004069f8	<-
+0x00406a2e	->	jump?	.textlib/__float32_mul_float32_float32/L__0_14082/0x00406a38	0x00406a30
+0x00406a30	<-
+0x00406a34	->	jump?	.textlib/__float32_mul_float32_float32/L_BB5___float32_mul_float32_float32/0x00406be8	0x00406a38
+0x00406a38	<-
+0x00406a50	->	jump?	.textlib/__float32_mul_float32_float32/L__0_8962/0x00406ae0	0x00406a52
+0x00406a52	<-
+0x00406a5a	->	jump?	.textlib/__float32_mul_float32_float32/L__0_9474/0x00406a90	0x00406a5c
+0x00406a5c	<-
+0x00406a76	->	jump?	.textlib/__float32_mul_float32_float32/L__0_8450/0x00406bb8	0x00406a78
+0x00406a78	<-
+0x00406a8a	->	rts!	<unknown> 
+0x00406a90	<-
+0x00406a98	->	jump?	.textlib/__float32_mul_float32_float32/L__0_11266/0x00406ab8	0x00406a9a
+0x00406a9a	<-
+0x00406aa4	->	jump?	.textlib/__float32_mul_float32_float32/L__0_11266/0x00406ab8	0x00406aa6
+0x00406aa6	<-
+0x00406ab2	->	rts!	<unknown> 
+0x00406ab8	<-
+0x00406adc	->	rts!	<unknown> 
+0x00406ae0	<-
+0x00406b18	->	call!	.textlib/__mulw/0x004003e8	0x00406b1c
+0x00406b1c	<-
+0x00406b2a	->	call!	.textlib/__mulw/0x004003e8	0x00406b2e
+0x00406b2e	<-
+0x00406b40	->	call!	.textlib/__mulw/0x004003e8	0x00406b44
+0x00406b44	<-
+0x00406b4c	->	call!	.textlib/__mulw/0x004003e8	0x00406b50
+0x00406b50	<-
+0x00406b6e	->	jump?	.textlib/__float32_mul_float32_float32/L_BB23___float32_mul_float32_float32/0x00406c48	0x00406b70
+0x00406b70	<-
+0x00406b88	<-
+0x00406b96	->	jump?	.textlib/__float32_mul_float32_float32/L_BB26___float32_mul_float32_float32/0x00406c58	0x00406b98
+0x00406b98	<-
+0x00406ba2	->	jump?	.textlib/__float32_mul_float32_float32/L__0_13058/0x00406c18	0x00406ba4
+0x00406ba4	<-
+0x00406bb2	->	rts!	<unknown> 
+0x00406bb8	<-
+0x00406bc8	->	jump?	.textlib/__float32_mul_float32_float32/L__0_10242/0x00406c00	0x00406bca
+0x00406bca	<-
+0x00406be2	->	rts!	<unknown> 
+0x00406be8	<-
+0x00406bfc	->	rts!	<unknown> 
+0x00406c00	<-
+0x00406c12	->	rts!	<unknown> 
+0x00406c18	<-
+0x00406c42	->	rts!	<unknown> 
+0x00406c48	<-
+0x00406c52	->	jump!	.textlib/__float32_mul_float32_float32/L__0_11522/0x00406b88
+0x00406c58	<-
+0x00406c78	->	jump?	.textlib/__float32_mul_float32_float32/L__0_12546/0x00406c90	0x00406c7a
+0x00406c7a	<-
+0x00406c8a	->	rts!	<unknown> 
+0x00406c90	<-
+0x00406c9c	->	rts!	<unknown> 
+}
+
+entry .textlib/__float32_recip_float32/0x00406ca0 = {
+0x00406ca0	<-
+0x00406cc8	->	jump?	.textlib/__float32_recip_float32/L__0_4098/0x00406ce8	0x00406cca
+0x00406cca	<-
+0x00406ce2	->	jump!	.textlib/__float32_recip_float32/L__0_3842/0x00406d00
+0x00406ce8	<-
+0x00406d00	<-
+0x00406d3a	->	call!	.textlib/__mull/0x00400688	0x00406d3e
+0x00406d3e	<-
+0x00406d52	->	call!	.textlib/__mull/0x00400688	0x00406d56
+0x00406d56	<-
+0x00406d68	->	call!	.textlib/__mull/0x00400688	0x00406d6c
+0x00406d6c	<-
+0x00406da0	->	call!	.textlib/__mull/0x00400688	0x00406da4
+0x00406da4	<-
+0x00406df2	->	call!	.textlib/__mull/0x00400688	0x00406df6
+0x00406df6	<-
+0x00406e12	->	call!	.textlib/__mull/0x00400688	0x00406e16
+0x00406e16	<-
+0x00406e52	->	call!	.textlib/__mull/0x00400688	0x00406e56
+0x00406e56	<-
+0x00406e76	->	call!	.textlib/__mulun/0x00400360	0x00406e7a
+0x00406e7a	<-
+0x00406e92	->	jump?	.textlib/__float32_recip_float32/L_BB15___float32_recip_float32/0x00406f10	0x00406e94
+0x00406e94	<-
+0x00406ea0	->	jump?	.textlib/__float32_recip_float32/L__0_5378/0x00406ec0	0x00406ea2
+0x00406ea2	<>	jump?	.textlib/__float32_recip_float32/L__0_5890/0x00406f58	0x00406ea8
+0x00406ea8	<-
+0x00406eba	->	rts!	<unknown> 
+0x00406ec0	<-
+0x00406eee	->	jump?	.textlib/__float32_recip_float32/L__0_6402/0x00406f30	0x00406ef0
+0x00406ef0	<-
+0x00406f00	->	jump?	.textlib/__float32_recip_float32/L__0_6914/0x00406f70	0x00406f02
+0x00406f02	<-
+0x00406f0e	->	rts!	<unknown> 
+0x00406f10	<-
+0x00406f2a	->	rts!	<unknown> 
+0x00406f30	<-
+0x00406f54	->	rts!	<unknown> 
+0x00406f58	<-
+0x00406f6a	->	rts!	<unknown> 
+0x00406f70	<-
+0x00406f7c	->	rts!	<unknown> 
+}
+
+entry .textlib/__float32_sub_float32_float32/0x00406f80 = {
+0x00406f80	<-
+0x00406f84	->	jump!	.textlib/__float32_add_float32_float32/0x00406370
+}
+
+entry .textlib/__float64_add_float64_float64/0x00406f88 = {
+0x00406f88	<-
+0x00406fd0	->	jump?	.textlib/__float64_add_float64_float64/L__0_15362/0x00407148	0x00406fd4
+0x00406fd4	<-
+0x00406fda	->	jump?	.textlib/__float64_add_float64_float64/L_BB3___float64_add_float64_float64/0x00407130	0x00406fe0
+0x00406fe0	<-
+0x00406fe6	->	jump?	.textlib/__float64_add_float64_float64/L__0_19202/0x00407008	0x00406fe8
+0x00406fe8	<-
+0x00406fee	->	jump?	.textlib/__float64_add_float64_float64/L__0_26626/0x00407138	0x00406ff0
+0x00406ff0	<-
+0x00407002	->	rts!	<unknown> 
+0x00407008	<-
+0x0040700c	->	jump?	.textlib/__float64_add_float64_float64/L_BB24___float64_add_float64_float64/0x004071d0	0x00407010
+0x00407010	<-
+0x00407018	->	jump?	.textlib/__float64_add_float64_float64/L_BB26___float64_add_float64_float64/0x00407268	0x0040701c
+0x0040701c	<-
+0x0040702e	->	jump?	.textlib/__float64_add_float64_float64/L__0_20738/0x00407040	0x00407030
+0x00407030	<-
+0x00407040	<-
+0x0040704c	->	jump?	.textlib/__float64_add_float64_float64/L__0_21250/0x00407060	0x0040704e
+0x0040704e	<-
+0x00407060	<-
+0x00407072	->	jump?	.textlib/__float64_add_float64_float64/L__0_22018/0x004071e0	0x00407078
+0x00407078	<-
+0x00407092	->	jump?	.textlib/__float64_add_float64_float64/L_BB37___float64_add_float64_float64/0x004072b8	0x00407098
+0x00407098	<-
+0x004070a0	->	jump?	.textlib/__float64_add_float64_float64/L_BB39___float64_add_float64_float64/0x00407278	0x004070a4
+0x004070a4	<-
+0x00407106	->	jump?	.textlib/__float64_add_float64_float64/L__0_24578/0x00407188	0x00407108
+0x00407108	<-
+0x00407110	->	jump?	.textlib/__float64_add_float64_float64/L__0_24578/0x00407188	0x00407112
+0x00407112	<-
+0x0040712a	->	jump!	.textlib/__float64_add_float64_float64/L__0_258/0x00407198
+0x00407130	<-
+0x00407134	->	rts!	<unknown> 
+0x00407138	<-
+0x00407142	->	rts!	<unknown> 
+0x00407148	<-
+0x0040714c	->	jump?	.textlib/__float64_add_float64_float64/L_BB6___float64_add_float64_float64/0x004072c8	0x0040714e
+0x0040714e	<-
+0x00407154	->	jump?	.textlib/__float64_add_float64_float64/L__0_16130/0x00406fe0	0x00407156
+0x00407156	<-
+0x00407166	->	jump?	.textlib/__float64_add_float64_float64/L_BB11___float64_add_float64_float64/0x004072f8	0x00407168
+0x00407168	<-
+0x00407172	->	jump?	.textlib/__float64_add_float64_float64/L_BB13___float64_add_float64_float64/0x00407328	0x00407176
+0x00407176	<-
+0x0040717a	->	jump?	.textlib/__float64_add_float64_float64/L__0_18690/0x00407300	0x0040717c
+0x0040717c	<-
+0x00407182	->	rts!	<unknown> 
+0x00407188	<-
+0x00407198	<-
+0x004071aa	->	jump?	.textlib/__float64_add_float64_float64/L_BB47___float64_add_float64_float64/0x004072a0	0x004071ac
+0x004071ac	<-
+0x004071b2	->	jump?	.textlib/__float64_add_float64_float64/L_BB49___float64_add_float64_float64/0x00407310	0x004071b4
+0x004071b4	<-
+0x004071ce	->	rts!	<unknown> 
+0x004071d0	<-
+0x004071da	->	rts!	<unknown> 
+0x004071e0	<-
+0x004071e4	->	jump?	.textlib/__float64_add_float64_float64/L__0_22530/0x00407288	0x004071e6
+0x004071e6	<-
+0x00407264	->	jump!	.textlib/__float64_add_float64_float64/L__0_22274/0x00407078
+0x00407268	<-
+0x00407274	->	rts!	<unknown> 
+0x00407278	<-
+0x00407286	->	rts!	<unknown> 
+0x00407288	<-
+0x0040729a	->	jump!	.textlib/__float64_add_float64_float64/L__0_22274/0x00407078
+0x004072a0	<-
+0x004072b4	->	rts!	<unknown> 
+0x004072b8	<-
+0x004072c4	->	jump!	.textlib/__float64_add_float64_float64/L__0_22786/0x00407098
+0x004072c8	<-
+0x004072ce	->	jump?	.textlib/__float64_add_float64_float64/L_BB7___float64_add_float64_float64/0x00407338	0x004072d0
+0x004072d0	<-
+0x004072f4	->	jump!	.textlib/__float64_add_float64_float64/L__0_16130/0x00406fe0
+0x004072f8	<-
+0x004072fc	->	rts!	<unknown> 
+0x00407300	<-
+0x0040730a	->	rts!	<unknown> 
+0x00407310	<-
+0x00407322	->	rts!	<unknown> 
+0x00407328	<-
+0x00407332	->	rts!	<unknown> 
+0x00407338	<-
+0x00407340	->	rts!	<unknown> 
+}
+
+entry .textlib/__float64_div_float64_float64/0x00407348 = {
+0x00407348	<-
+0x00407382	->	jump?	.textlib/__float64_div_float64_float64/L__0_18690/0x004073c8	0x00407384
+0x00407384	<-
+0x00407398	->	jump?	.textlib/__float64_div_float64_float64/L_BB3___float64_div_float64_float64/0x00407418	0x0040739a
+0x0040739a	<-
+0x004073a6	->	jump?	.textlib/__float64_div_float64_float64/L__0_19714/0x004074d0	0x004073a8
+0x004073a8	<-
+0x004073b4	->	jump?	.textlib/__float64_div_float64_float64/L__0_34050/0x00407428	0x004073b6
+0x004073b6	<-
+0x004073c2	->	rts!	<unknown> 
+0x004073c8	<-
+0x004073d4	->	jump?	.textlib/__float64_div_float64_float64/L__0_20226/0x004073f8	0x004073d6
+0x004073d6	<-
+0x004073e2	->	jump?	.textlib/__float64_div_float64_float64/L__0_20738/0x00407438	0x004073e4
+0x004073e4	<-
+0x004073f2	->	rts!	<unknown> 
+0x004073f8	<-
+0x00407400	->	jump?	.textlib/__float64_div_float64_float64/L__0_21250/0x00407450	0x00407402
+0x00407402	<>	jump?	.textlib/__float64_div_float64_float64/L__0_21762/0x004074f8	0x00407408
+0x00407408	<-
+0x00407416	->	rts!	<unknown> 
+0x00407418	<-
+0x00407424	->	rts!	<unknown> 
+0x00407428	<-
+0x00407436	->	rts!	<unknown> 
+0x00407438	<-
+0x0040744e	->	rts!	<unknown> 
+0x00407450	<>	jump?	.textlib/__float64_div_float64_float64/L_BB20___float64_div_float64_float64/0x004077b0	0x00407454
+0x00407454	<-
+0x004074a0	->	jump?	.textlib/__float64_div_float64_float64/L__0_22786/0x004074c0	0x004074a2
+0x004074a2	<-
+0x004074c0	<-
+0x004074c4	->	jump?	.textlib/__float64_div_float64_float64/L__0_23298/0x00407520	0x004074c6
+0x004074c6	<-
+0x004074ca	->	jump!	.textlib/__float64_div_float64_float64/L__0_1282/0x004075a8
+0x004074d0	<-
+0x004074f4	->	rts!	<unknown> 
+0x004074f8	<-
+0x0040751a	->	rts!	<unknown> 
+0x00407520	<-
+0x0040752c	->	jump?	.textlib/__float64_div_float64_float64/L_BB26___float64_div_float64_float64/0x004078c8	0x00407530
+0x00407530	<-
+0x00407538	<-
+0x0040754a	->	call!	.textlib/__mulun/0x00400360	0x0040754e
+0x0040754e	<-
+0x0040755c	->	jump?	.textlib/__float64_div_float64_float64/L__0_34306/0x00407580	0x00407560
+0x00407560	<-
+0x00407576	->	jump?	.textlib/__float64_div_float64_float64/L__0_24834/0x00407560	0x0040757a
+0x0040757a	<>	jump!	.textlib/__float64_div_float64_float64/L__0_24322/0x00407588
+0x00407580	<-
+0x00407588	<-
+0x00407594	->	jump?	.textlib/__float64_div_float64_float64/L_BB35___float64_div_float64_float64/0x004078e0	0x0040759a
+0x0040759a	<-
+0x004075a0	<-
+0x004075a8	<-
+0x004075ae	->	call!	.textlib/__mulun/0x00400360	0x004075b2
+0x004075b2	<-
+0x004075c0	->	call!	.textlib/__mulun/0x00400360	0x004075c4
+0x004075c4	<-
+0x004075f6	->	jump?	.textlib/__float64_div_float64_float64/L__0_25858/0x00407638	0x004075fa
+0x004075fa	<-
+0x00407600	<-
+0x00407632	->	jump?	.textlib/__float64_div_float64_float64/L__0_26370/0x00407600	0x00407638
+0x00407638	<-
+0x0040763c	->	jump?	.textlib/__float64_div_float64_float64/L__0_26882/0x00407648	0x0040763e
+0x0040763e	<-
+0x00407642	->	jump!	.textlib/__float64_div_float64_float64/L__0_770/0x004076d0
+0x00407648	<-
+0x00407654	->	jump?	.textlib/__float64_div_float64_float64/L_BB47___float64_div_float64_float64/0x004078f0	0x0040765a
+0x0040765a	<-
+0x00407660	<-
+0x00407672	->	call!	.textlib/__mulun/0x00400360	0x00407676
+0x00407676	<-
+0x00407684	->	jump?	.textlib/__float64_div_float64_float64/L__0_34818/0x004076a8	0x00407688
+0x00407688	<-
+0x0040769e	->	jump?	.textlib/__float64_div_float64_float64/L__0_28418/0x00407688	0x004076a2
+0x004076a2	<>	jump!	.textlib/__float64_div_float64_float64/L__0_27906/0x004076b0
+0x004076a8	<-
+0x004076b0	<-
+0x004076bc	->	jump?	.textlib/__float64_div_float64_float64/L_BB56___float64_div_float64_float64/0x00407908	0x004076c2
+0x004076c2	<-
+0x004076c8	<-
+0x004076d0	<-
+0x004076da	->	jump?	.textlib/__float64_div_float64_float64/L_BB61___float64_div_float64_float64/0x004077e8	0x004076e0
+0x004076e0	<-
+0x004076f8	->	jump?	.textlib/__float64_div_float64_float64/L__0_35330/0x00407720	0x004076fa
+0x004076fa	<-
+0x0040771c	->	jump?	.textlib/__float64_div_float64_float64/L_BB69___float64_div_float64_float64/0x004078a0	0x00407720
+0x00407720	<-
+0x00407728	->	jump?	.textlib/__float64_div_float64_float64/L__0_31746/0x00407750	0x0040772a
+0x0040772a	<-
+0x00407732	->	jump?	.textlib/__float64_div_float64_float64/L__0_31746/0x00407750	0x00407734
+0x00407734	<-
+0x0040774c	->	jump!	.textlib/__float64_div_float64_float64/L__0_258/0x00407760
+0x00407750	<-
+0x00407760	<-
+0x00407780	->	jump?	.textlib/__float64_div_float64_float64/L_BB77___float64_div_float64_float64/0x004077c8	0x00407782
+0x00407782	<-
+0x00407784	->	jump?	.textlib/__float64_div_float64_float64/L_BB79___float64_div_float64_float64/0x00407918	0x00407786
+0x00407786	<-
+0x004077aa	->	rts!	<unknown> 
+0x004077b0	<-
+0x004077c6	->	rts!	<unknown> 
+0x004077c8	<-
+0x004077e2	->	rts!	<unknown> 
+0x004077e8	<-
+0x004077f0	->	call!	.textlib/__mulun/0x00400360	0x004077f4
+0x004077f4	<-
+0x00407802	->	call!	.textlib/__mulun/0x00400360	0x00407806
+0x00407806	<-
+0x00407844	->	jump?	.textlib/__float64_div_float64_float64/L__0_29954/0x00407888	0x0040784a
+0x0040784a	<-
+0x00407850	<-
+0x00407884	->	jump?	.textlib/__float64_div_float64_float64/L__0_30466/0x00407850	0x00407888
+0x00407888	<-
+0x0040789a	->	jump!	.textlib/__float64_div_float64_float64/L__0_29442/0x004076e0
+0x004078a0	<-
+0x004078c6	->	rts!	<unknown> 
+0x004078c8	<-
+0x004078d0	->	call!	.textlib/__divuw/0x00400288	0x004078d4
+0x004078d4	<-
+0x004078da	->	jump!	.textlib/__float64_div_float64_float64/L_BB177___float64_div_float64_float64/0x00407538
+0x004078e0	<-
+0x004078e4	->	call!	.textlib/__divuw/0x00400288	0x004078e8
+0x004078e8	<-
+0x004078ea	->	jump!	.textlib/__float64_div_float64_float64/L__0_25346/0x004075a0
+0x004078f0	<-
+0x004078f8	->	call!	.textlib/__divuw/0x00400288	0x004078fc
+0x004078fc	<-
+0x00407902	->	jump!	.textlib/__float64_div_float64_float64/L_BB178___float64_div_float64_float64/0x00407660
+0x00407908	<-
+0x0040790c	->	call!	.textlib/__divuw/0x00400288	0x00407910
+0x00407910	<-
+0x00407912	->	jump!	.textlib/__float64_div_float64_float64/L__0_28930/0x004076c8
+0x00407918	<-
+0x0040792e	->	rts!	<unknown> 
+}
+
+entry .textlib/__float64_from_float32/0x00407930 = {
+0x00407930	<-
+0x00407946	->	jump?	.textlib/__float64_from_float32/L__0_2306/0x00407970	0x00407948
+0x00407948	<-
+0x00407952	->	jump?	.textlib/__float64_from_float32/L__0_2818/0x004079b0	0x00407954
+0x00407954	<-
+0x0040796a	->	rts!	<unknown> 
+0x00407970	<-
+0x00407974	->	jump?	.textlib/__float64_from_float32/L__0_3330/0x004079c0	0x00407976
+0x00407976	<-
+0x00407980	->	jump?	.textlib/__float64_from_float32/L_BB7___float64_from_float32/0x004079e8	0x00407982
+0x00407982	<-
+0x004079ac	->	rts!	<unknown> 
+0x004079b0	<-
+0x004079be	->	rts!	<unknown> 
+0x004079c0	<-
+0x004079e4	->	rts!	<unknown> 
+0x004079e8	<-
+0x004079ee	->	rts!	<unknown> 
+}
+
+entry .textlib/__float64_from_int32/0x004079f0 = {
+0x004079f0	<-
+0x004079fc	->	jump?	.textlib/__float64_from_int32/L_BB2___float64_from_int32/0x00407a70	0x004079fe
+0x004079fe	<-
+0x00407a0a	->	jump?	.textlib/__float64_from_int32/L_BB4___float64_from_int32/0x00407a80	0x00407a0c
+0x00407a0c	<-
+0x00407a6c	->	rts!	<unknown> 
+0x00407a70	<-
+0x00407a7a	->	rts!	<unknown> 
+0x00407a80	<-
+0x00407a8e	->	rts!	<unknown> 
+}
+
+entry .textlib/__float64_from_uint32/0x00407a90 = {
+0x00407a90	<-
+0x00407a9c	->	jump?	.textlib/__float64_from_uint32/L__0_770/0x00407ab0	0x00407a9e
+0x00407a9e	<-
+0x00407aaa	->	rts!	<unknown> 
+0x00407ab0	<-
+0x00407b02	->	rts!	<unknown> 
+}
+
+entry .textlib/__float64_mul_float64_float64/0x00407b08 = {
+0x00407b08	<-
+0x00407b4c	->	jump?	.textlib/__float64_mul_float64_float64/L__0_19714/0x00407b90	0x00407b4e
+0x00407b4e	<-
+0x00407b60	->	jump?	.textlib/__float64_mul_float64_float64/L__0_20226/0x00407bd0	0x00407b62
+0x00407b62	<>	jump?	.textlib/__float64_mul_float64_float64/L__0_28162/0x00407d48	0x00407b68
+0x00407b68	<-
+0x00407b7a	->	jump?	.textlib/__float64_mul_float64_float64/L__0_28162/0x00407d48	0x00407b7e
+0x00407b7e	<-
+0x00407b8a	->	rts!	<unknown> 
+0x00407b90	<-
+0x00407b94	->	jump?	.textlib/__float64_mul_float64_float64/L__0_21250/0x00407c08	0x00407b9a
+0x00407b9a	<-
+0x00407baa	->	jump?	.textlib/__float64_mul_float64_float64/L_BB16___float64_mul_float64_float64/0x00407e18	0x00407bae
+0x00407bae	<-
+0x00407bb6	->	jump?	.textlib/__float64_mul_float64_float64/L__0_22274/0x00407d80	0x00407bba
+0x00407bba	<-
+0x00407bca	->	rts!	<unknown> 
+0x00407bd0	<>	jump?	.textlib/__float64_mul_float64_float64/L__0_28418/0x00407bf0	0x00407bd6
+0x00407bd6	<-
+0x00407bea	->	jump?	.textlib/__float64_mul_float64_float64/L_BB10___float64_mul_float64_float64/0x00407e28	0x00407bf0
+0x00407bf0	<-
+0x00407bf6	->	jump?	.textlib/__float64_mul_float64_float64/L__0_20738/0x00407d58	0x00407bf8
+0x00407bf8	<-
+0x00407c04	->	rts!	<unknown> 
+0x00407c08	<>	jump?	.textlib/__float64_mul_float64_float64/L__0_18434/0x00407d20	0x00407c0a
+0x00407c0a	<-
+0x00407c0e	->	jump?	.textlib/__float64_mul_float64_float64/L__0_18434/0x00407d20	0x00407c10
+0x00407c10	<-
+0x00407c32	->	call!	.textlib/__mulun/0x00400360	0x00407c36
+0x00407c36	<-
+0x00407c48	->	call!	.textlib/__mulun/0x00400360	0x00407c4c
+0x00407c4c	<-
+0x00407c5a	->	call!	.textlib/__mulun/0x00400360	0x00407c5e
+0x00407c5e	<-
+0x00407c6e	->	call!	.textlib/__mulun/0x00400360	0x00407c72
+0x00407c72	<-
+0x00407cd6	->	jump?	.textlib/__float64_mul_float64_float64/L__0_22786/0x00407ce0	0x00407cd8
+0x00407cd8	<-
+0x00407ce0	<-
+0x00407cec	->	jump?	.textlib/__float64_mul_float64_float64/L_BB33___float64_mul_float64_float64/0x00407e58	0x00407cf0
+0x00407cf0	<-
+0x00407cf4	->	jump?	.textlib/__float64_mul_float64_float64/L__0_25602/0x00407da0	0x00407cf6
+0x00407cf6	<-
+0x00407cfe	->	jump?	.textlib/__float64_mul_float64_float64/L__0_25602/0x00407da0	0x00407d00
+0x00407d00	<-
+0x00407d1a	->	jump!	.textlib/__float64_mul_float64_float64/L__0_258/0x00407db0
+0x00407d20	<-
+0x00407d42	->	rts!	<unknown> 
+0x00407d48	<-
+0x00407d56	->	rts!	<unknown> 
+0x00407d58	<-
+0x00407d7c	->	rts!	<unknown> 
+0x00407d80	<-
+0x00407d9e	->	rts!	<unknown> 
+0x00407da0	<-
+0x00407db0	<-
+0x00407dc4	->	jump?	.textlib/__float64_mul_float64_float64/L__0_29698/0x00407dd8	0x00407dc6
+0x00407dc6	<-
+0x00407dd2	->	jump?	.textlib/__float64_mul_float64_float64/L_BB42___float64_mul_float64_float64/0x00407e78	0x00407dd8
+0x00407dd8	<-
+0x00407dea	->	jump?	.textlib/__float64_mul_float64_float64/L_BB44___float64_mul_float64_float64/0x00407e38	0x00407dec
+0x00407dec	<-
+0x00407dee	->	jump?	.textlib/__float64_mul_float64_float64/L_BB46___float64_mul_float64_float64/0x00407ea0	0x00407df0
+0x00407df0	<-
+0x00407e12	->	rts!	<unknown> 
+0x00407e18	<-
+0x00407e26	->	rts!	<unknown> 
+0x00407e28	<-
+0x00407e36	->	rts!	<unknown> 
+0x00407e38	<-
+0x00407e52	->	rts!	<unknown> 
+0x00407e58	<-
+0x00407e76	->	jump!	.textlib/__float64_mul_float64_float64/L__0_23298/0x00407cf0
+0x00407e78	<-
+0x00407e9c	->	rts!	<unknown> 
+0x00407ea0	<-
+0x00407eb6	->	rts!	<unknown> 
+}
+
+entry .textlib/__float64_sub_float64_float64/0x00407eb8 = {
+0x00407eb8	<-
+0x00407ebc	->	jump!	.textlib/__float64_add_float64_float64/0x00406f88
+}
+
+entry .textlib/__int32_from_float32_rtz/0x00407ec0 = {
+0x00407ec0	<-
+0x00407ee0	->	jump?	.textlib/__int32_from_float32_rtz/L_BB3___int32_from_float32_rtz/0x00407fb0	0x00407ee2
+0x00407ee2	<-
+0x00407ef0	->	jump?	.textlib/__int32_from_float32_rtz/L__0_6658/0x00407ef8	0x00407ef2
+0x00407ef2	<-
+0x00407ef8	<-
+0x00407efc	->	jump?	.textlib/__int32_from_float32_rtz/L__0_7170/0x00407f40	0x00407efe
+0x00407efe	<-
+0x00407f04	->	jump?	.textlib/__int32_from_float32_rtz/L__0_8450/0x00407f38	0x00407f06
+0x00407f06	<-
+0x00407f32	->	jump!	.textlib/__int32_from_float32_rtz/L__0_7170/0x00407f40
+0x00407f38	<-
+0x00407f40	<-
+0x00407f44	->	jump?	.textlib/__int32_from_float32_rtz/L__0_8962/0x00407f68	0x00407f46
+0x00407f46	<-
+0x00407f52	->	jump!	.textlib/__int32_from_float32_rtz/L__0_8706/0x00407f78
+0x00407f58	<-
+0x00407f60	<-
+0x00407f68	<-
+0x00407f78	<-
+0x00407f7e	->	jump?	.textlib/__int32_from_float32_rtz/L__0_6402/0x00407f98	0x00407f80
+0x00407f80	<-
+0x00407f82	->	rts?	<unknown> 	0x00407f86
+0x00407f86	<-
+0x00407f92	->	rts?	<unknown> 	0x00407f98
+0x00407f98	<-
+0x00407faa	->	rts!	<unknown> 
+0x00407fb0	<-
+0x00407fbe	->	jump?	.textlib/__int32_from_float32_rtz/L__0_9474/0x00407fc8	0x00407fc2
+0x00407fc2	<-
+0x00407fc8	<-
+0x00407fcc	->	jump?	.textlib/__int32_from_float32_rtz/L__0_10242/0x00407f60	0x00407fce
+0x00407fce	<-
+0x00407fd4	->	jump?	.textlib/__int32_from_float32_rtz/L__0_10498/0x00407f58	0x00407fd6
+0x00407fd6	<-
+0x00408000	->	jump!	.textlib/__int32_from_float32_rtz/L__0_10242/0x00407f60
+}
+
+entry .textlib/__int32_from_float64_rtz/0x00408008 = {
+0x00408008	<-
+0x0040802a	->	jump?	.textlib/__int32_from_float64_rtz/L__0_11266/0x00408090	0x0040802c
+0x0040802c	<-
+0x0040803a	->	jump?	.textlib/__int32_from_float64_rtz/L__0_11266/0x00408090	0x0040803c
+0x0040803c	<-
+0x0040804e	->	jump?	.textlib/__int32_from_float64_rtz/L__0_10242/0x00408110	0x00408050
+0x00408050	<-
+0x00408056	->	jump?	.textlib/__int32_from_float64_rtz/L__0_10498/0x00408108	0x00408058
+0x00408058	<-
+0x0040808e	->	jump!	.textlib/__int32_from_float64_rtz/L__0_10242/0x00408110
+0x00408090	<-
+0x004080a6	->	jump?	.textlib/__int32_from_float64_rtz/L__0_7170/0x004080f0	0x004080a8
+0x004080a8	<-
+0x004080ae	->	jump?	.textlib/__int32_from_float64_rtz/L__0_8450/0x004080e8	0x004080b0
+0x004080b0	<-
+0x004080e6	->	jump!	.textlib/__int32_from_float64_rtz/L__0_7170/0x004080f0
+0x004080e8	<-
+0x004080f0	<-
+0x004080f2	->	jump?	.textlib/__int32_from_float64_rtz/L__0_8962/0x00408118	0x004080f4
+0x004080f4	<-
+0x00408102	->	jump!	.textlib/__int32_from_float64_rtz/L__0_8706/0x00408128
+0x00408108	<-
+0x00408110	<-
+0x00408118	<-
+0x00408128	<-
+0x00408134	->	jump?	.textlib/__int32_from_float64_rtz/L__0_6402/0x00408148	0x00408136
+0x00408136	<-
+0x00408138	->	jump?	.textlib/__int32_from_float64_rtz/L__0_12290/0x00408158	0x0040813a
+0x0040813a	<-
+0x00408142	->	jump?	.textlib/__int32_from_float64_rtz/L__0_12290/0x00408158	0x00408148
+0x00408148	<-
+0x00408156	->	rts!	<unknown> 
+0x00408158	<-
+0x00408160	->	rts!	<unknown> 
+}
+
+entry .textlib/__uint32_from_float32_rtz/0x00408168 = {
+0x00408168	<-
+0x00408188	->	jump?	.textlib/__uint32_from_float32_rtz/L_BB3___uint32_from_float32_rtz/0x00408260	0x0040818a
+0x0040818a	<-
+0x00408198	->	jump?	.textlib/__uint32_from_float32_rtz/L__0_6914/0x004081a0	0x0040819a
+0x0040819a	<-
+0x004081a0	<-
+0x004081a4	->	jump?	.textlib/__uint32_from_float32_rtz/L__0_7426/0x004081e8	0x004081a6
+0x004081a6	<-
+0x004081ac	->	jump?	.textlib/__uint32_from_float32_rtz/L__0_8706/0x004081e0	0x004081ae
+0x004081ae	<-
+0x004081da	->	jump!	.textlib/__uint32_from_float32_rtz/L__0_7426/0x004081e8
+0x004081e0	<-
+0x004081e8	<-
+0x004081ec	->	jump?	.textlib/__uint32_from_float32_rtz/L__0_9218/0x00408210	0x004081ee
+0x004081ee	<-
+0x004081fa	->	jump!	.textlib/__uint32_from_float32_rtz/L__0_8962/0x00408220
+0x00408200	<-
+0x00408208	<-
+0x00408210	<-
+0x00408220	<-
+0x00408226	->	jump?	.textlib/__uint32_from_float32_rtz/L__0_12290/0x00408248	0x00408228
+0x00408228	<-
+0x0040822a	->	jump?	.textlib/__uint32_from_float32_rtz/L__0_12802/0x00408258	0x0040822c
+0x0040822c	<-
+0x00408232	->	jump?	.textlib/__uint32_from_float32_rtz/L__0_12802/0x00408258	0x00408234
+0x00408234	<>	jump?	.textlib/__uint32_from_float32_rtz/L__0_12802/0x00408258	0x0040823a
+0x0040823a	<-
+0x00408242	->	rts!	<unknown> 
+0x00408248	<-
+0x00408254	->	rts!	<unknown> 
+0x00408258	<>	rts!	<unknown> 
+0x0040825a	<-
+0x00408260	<-
+0x0040826e	->	jump?	.textlib/__uint32_from_float32_rtz/L__0_9730/0x00408278	0x00408272
+0x00408272	<-
+0x00408278	<-
+0x0040827c	->	jump?	.textlib/__uint32_from_float32_rtz/L__0_10498/0x00408208	0x0040827e
+0x0040827e	<-
+0x00408284	->	jump?	.textlib/__uint32_from_float32_rtz/L__0_10754/0x00408200	0x00408286
+0x00408286	<-
+0x004082b0	->	jump!	.textlib/__uint32_from_float32_rtz/L__0_10498/0x00408208
+}
+
+entry .textlib/_close/0x004082b4 = {
+0x004082b4	<-
+0x004082b8	->	jump!	.textlib/__syscall/0x004047cc
+}
+
+entry .textlib/_exit/0x004082bc = {
+0x004082bc	<-
+0x004082c0	->	jump!	.textlib/__syscall/0x004047cc
+}
+
+entry .textlib/_fstat/0x004082c4 = {
+0x004082c4	<-
+0x004082cc	->	jump!	.textlib/__syscall/0x004047cc
+}
+
+entry .textlib/_lseek/0x004082d0 = {
+0x004082d0	<-
+0x004082dc	->	jump!	.textlib/__syscall/0x004047cc
+}
+
+entry .textlib/_read/0x004082e0 = {
+0x004082e0	<-
+0x004082ec	->	jump!	.textlib/__syscall/0x004047cc
+}
+
+entry .textlib/_sbrk/0x004082f0 = {
+0x004082f0	<-
+0x00408306	->	jump?	.textlib/_sbrk/L__0_4866/0x0040832a	0x00408308
+0x00408308	<-
+0x00408318	->	jump?	.textlib/_sbrk/L__0_4610/0x0040831e	0x0040831a
+0x0040831a	<-
+0x0040831c	->	jump?	.textlib/_sbrk/L__0_4354/0x00408328	0x0040831e
+0x0040831e	<-
+0x00408322	<-
+0x00408324	<-
+0x00408326	->	rts!	<unknown> 
+0x00408328	<-
+0x0040832a	<-
+0x00408330	->	jump?	.textlib/_sbrk/L__0_5634/0x0040833e	0x00408332
+0x00408332	<-
+0x00408334	->	jump?	.textlib/_sbrk/L__0_770/0x00408322	0x00408336
+0x00408336	<-
+0x0040833c	->	jump!	.textlib/_sbrk/L_BB14__sbrk/0x00408324
+0x0040833e	<-
+0x00408344	->	jump?	.textlib/_sbrk/L__0_7170/0x00408336	0x00408346
+0x00408346	<-
+0x0040834c	->	jump?	.textlib/_sbrk/L__0_770/0x00408322	0x0040834e
+0x0040834e	<>	jump!	.textlib/_sbrk/L__0_7170/0x00408336
+}
+
+entry .textlib/_write/0x00408350 = {
+0x00408350	<-
+0x0040835c	->	jump!	.textlib/__syscall/0x004047cc
+}
+
+entry .textlib/_getpid/0x00408360 = {
+0x00408360	<-
+0x00408362	->	rts!	<unknown> 
+}
+
+entry .textlib/_kill/0x00408364 = {
+0x00408364	<-
+0x00408366	->	rts!	<unknown> 
+}
+
+entry .textlib/exp2/0x00408368 = {
+0x00408368	<-
+0x00408374	->	jump!	.textlib/pow/0x0040876c
+}
+
+entry .textlib/exp2f/0x00408378 = {
+0x00408378	<-
+0x00408380	->	jump!	.textlib/powf/0x00408384
+}
+
+entry .textlib/powf/0x00408384 = {
+0x00408384	<-
+0x00408394	->	call!	.textlib/__ieee754_powf/0x00408da8	0x00408398
+0x00408398	<-
+0x004083a4	->	jump?	.textlib/powf/L_BB136_powf/0x004083b0	0x004083a6
+0x004083a6	<-
+0x004083a8	->	call!	.textlib/__isnanf/0x00408b5c	0x004083ac
+0x004083ac	<-
+0x004083ae	->	jump?	.textlib/powf/L__0_514/0x004083be	0x004083b0
+0x004083b0	<-
+0x004083bc	->	rts!	<unknown> 
+0x004083be	<-
+0x004083c0	->	call!	.textlib/__isnanf/0x00408b5c	0x004083c4
+0x004083c4	<-
+0x004083ce	->	jump?	.textlib/powf/L__0_20482/0x00408426	0x004083d0
+0x004083d0	<-
+0x004083d4	->	call!	.textlib/__eqs/0x00405d40	0x004083d8
+0x004083d8	<-
+0x004083da	->	jump?	.textlib/powf/L_BB136_powf/0x004083b0	0x004083dc
+0x004083dc	<-
+0x004083e8	->	call!	.textlib/__stod/0x00405c98	0x004083ec
+0x004083ec	<-
+0x004083f2	->	call!	.textlib/__stod/0x00405c98	0x004083f6
+0x004083f6	<-
+0x00408414	->	jump?	.textlib/powf/L__0_19458/0x0040861e	0x00408418
+0x00408418	<-
+0x0040841c	<-
+0x00408420	->	call!	.textlib/__dtos/0x00405cd0	0x00408424
+0x00408424	<>	jump!	.textlib/powf/L_BB133_powf/0x00408588
+0x00408426	<-
+0x0040842a	->	call!	.textlib/__eqs/0x00405d40	0x0040842e
+0x0040842e	<-
+0x00408430	->	jump?	.textlib/powf/L__0_22530/0x0040847c	0x00408432
+0x00408432	<-
+0x00408436	->	call!	.textlib/__eqs/0x00405d40	0x0040843a
+0x0040843a	<-
+0x0040843c	->	jump?	.textlib/powf/L__0_23042/0x0040858c	0x0040843e
+0x0040843e	<-
+0x0040844a	->	call!	.textlib/__stod/0x00405c98	0x0040844e
+0x0040844e	<-
+0x00408454	->	call!	.textlib/__stod/0x00405c98	0x00408458
+0x00408458	<-
+0x00408466	->	jump?	.textlib/powf/L__0_23810/0x004085fe	0x0040846a
+0x0040846a	<-
+0x00408474	<-
+0x00408476	->	call!	.textlib/__dtos/0x00405cd0	0x0040847a
+0x0040847a	<>	jump!	.textlib/powf/L_BB133_powf/0x00408588
+0x0040847c	<-
+0x0040847e	->	call!	.textlib/finitef/0x00408b2c	0x00408482
+0x00408482	<-
+0x00408484	->	jump?	.textlib/powf/L__0_35074/0x0040851e	0x00408486
+0x00408486	<-
+0x00408488	->	call!	.textlib/finitef/0x00408b2c	0x0040848c
+0x0040848c	<-
+0x0040848e	->	jump?	.textlib/powf/L__0_35074/0x0040851e	0x00408490
+0x00408490	<-
+0x00408492	->	call!	.textlib/finitef/0x00408b2c	0x00408496
+0x00408496	<-
+0x00408498	->	jump?	.textlib/powf/L__0_35074/0x0040851e	0x0040849a
+0x0040849a	<-
+0x0040849c	->	call!	.textlib/__isnanf/0x00408b5c	0x004084a0
+0x004084a0	<-
+0x004084a6	->	call!	.textlib/__stod/0x00405c98	0x004084aa
+0x004084aa	<-
+0x004084b2	->	call!	.textlib/__stod/0x00405c98	0x004084b6
+0x004084b6	<-
+0x004084cc	->	jump?	.textlib/powf/L__0_27394/0x0040866e	0x004084d0
+0x004084d0	<-
+0x004084f8	->	jump?	.textlib/powf/L__0_27906/0x0040863e	0x004084fc
+0x004084fc	<>	call!	.textlib/__errno/0x0040079c	0x00408500
+0x00408500	<-
+0x00408506	<-
+0x0040850a	->	jump?	.textlib/powf/L__0_28674/0x00408514	0x0040850c
+0x0040850c	<>	call!	.textlib/__errno/0x0040079c	0x00408510
+0x00408510	<-
+0x00408514	<-
+0x00408518	->	call!	.textlib/__dtos/0x00405cd0	0x0040851c
+0x0040851c	<>	jump!	.textlib/powf/L_BB133_powf/0x00408588
+0x0040851e	<-
+0x00408522	->	call!	.textlib/__eqs/0x00405d40	0x00408526
+0x00408526	<-
+0x00408528	->	jump?	.textlib/powf/L_BB136_powf/0x004083b0	0x0040852a
+0x0040852a	<-
+0x0040852c	->	call!	.textlib/finitef/0x00408b2c	0x00408530
+0x00408530	<-
+0x00408532	->	jump?	.textlib/powf/L_BB136_powf/0x004083b0	0x00408534
+0x00408534	<-
+0x00408536	->	call!	.textlib/finitef/0x00408b2c	0x0040853a
+0x0040853a	<-
+0x0040853c	->	jump?	.textlib/powf/L_BB136_powf/0x004083b0	0x0040853e
+0x0040853e	<-
+0x0040854a	->	call!	.textlib/__stod/0x00405c98	0x0040854e
+0x0040854e	<-
+0x00408554	->	call!	.textlib/__stod/0x00405c98	0x00408558
+0x00408558	<-
+0x00408566	->	jump?	.textlib/powf/L__0_31490/0x0040865e	0x00408568
+0x00408568	<>	call!	.textlib/__errno/0x0040079c	0x0040856c
+0x0040856c	<-
+0x00408572	<-
+0x00408576	->	jump?	.textlib/powf/L__0_32258/0x00408580	0x00408578
+0x00408578	<>	call!	.textlib/__errno/0x0040079c	0x0040857c
+0x0040857c	<-
+0x00408580	<-
+0x00408584	->	call!	.textlib/__dtos/0x00405cd0	0x00408588
+0x00408588	<-
+0x0040858a	->	jump!	.textlib/powf/L_BB136_powf/0x004083b0
+0x0040858c	<-
+0x0040858e	->	call!	.textlib/finitef/0x00408b2c	0x00408592
+0x00408592	<-
+0x00408594	->	jump?	.textlib/powf/L_BB136_powf/0x004083b0	0x00408598
+0x00408598	<-
+0x0040859c	->	call!	.textlib/__lts/0x00405d60	0x004085a0
+0x004085a0	<-
+0x004085a2	->	jump?	.textlib/powf/L_BB136_powf/0x004083b0	0x004085a6
+0x004085a6	<-
+0x004085b2	->	call!	.textlib/__stod/0x00405c98	0x004085b6
+0x004085b6	<-
+0x004085bc	->	call!	.textlib/__stod/0x00405c98	0x004085c0
+0x004085c0	<-
+0x004085da	->	jump?	.textlib/powf/L__0_25346/0x0040864e	0x004085dc
+0x004085dc	<>	call!	.textlib/__errno/0x0040079c	0x004085e0
+0x004085e0	<-
+0x004085e6	<-
+0x004085ea	->	jump?	.textlib/powf/L__0_26114/0x004085f4	0x004085ec
+0x004085ec	<>	call!	.textlib/__errno/0x0040079c	0x004085f0
+0x004085f0	<-
+0x004085f4	<-
+0x004085f8	->	call!	.textlib/__dtos/0x00405cd0	0x004085fc
+0x004085fc	<>	jump!	.textlib/powf/L_BB133_powf/0x00408588
+0x004085fe	<-
+0x00408600	->	call!	.textlib/matherr/0x00408c00	0x00408604
+0x00408604	<-
+0x00408606	->	jump?	.textlib/powf/L__0_24066/0x00408612	0x00408608
+0x00408608	<>	call!	.textlib/__errno/0x0040079c	0x0040860c
+0x0040860c	<-
+0x00408612	<-
+0x00408616	->	jump?	.textlib/powf/L_BB39_powf/0x00408704	0x00408618
+0x00408618	<-
+0x0040861c	->	jump!	.textlib/powf/L__0_24834/0x00408474
+0x0040861e	<-
+0x00408620	->	call!	.textlib/matherr/0x00408c00	0x00408624
+0x00408624	<-
+0x00408626	->	jump?	.textlib/powf/L__0_21506/0x00408632	0x00408628
+0x00408628	<>	call!	.textlib/__errno/0x0040079c	0x0040862c
+0x0040862c	<-
+0x00408632	<-
+0x00408636	->	jump?	.textlib/powf/L_BB20_powf/0x0040870e	0x00408638
+0x00408638	<-
+0x0040863c	->	jump!	.textlib/powf/L__0_22274/0x0040841c
+0x0040863e	<-
+0x00408640	->	call!	.textlib/matherr/0x00408c00	0x00408644
+0x00408644	<-
+0x00408646	->	jump?	.textlib/powf/L__0_28162/0x00408506	0x00408648
+0x00408648	<>	call!	.textlib/__errno/0x0040079c	0x0040864c
+0x0040864c	<>	jump!	.textlib/powf/L_BB75_powf/0x00408500
+0x0040864e	<-
+0x00408650	->	call!	.textlib/matherr/0x00408c00	0x00408654
+0x00408654	<-
+0x00408656	->	jump?	.textlib/powf/L__0_25602/0x004085e6	0x00408658
+0x00408658	<>	call!	.textlib/__errno/0x0040079c	0x0040865c
+0x0040865c	<>	jump!	.textlib/powf/L_BB52_powf/0x004085e0
+0x0040865e	<-
+0x00408660	->	call!	.textlib/matherr/0x00408c00	0x00408664
+0x00408664	<-
+0x00408666	->	jump?	.textlib/powf/L__0_31746/0x00408572	0x00408668
+0x00408668	<>	call!	.textlib/__errno/0x0040079c	0x0040866c
+0x0040866c	<>	jump!	.textlib/powf/L_BB124_powf/0x0040856c
+0x0040866e	<-
+0x00408686	->	call!	.textlib/__lts/0x00405d60	0x0040868a
+0x0040868a	<-
+0x0040868e	->	jump?	.textlib/powf/L__0_29442/0x00408728	0x00408690
+0x00408690	<-
+0x004086a2	->	jump?	.textlib/powf/L__0_36098/0x004086dc	0x004086a4
+0x004086a4	<-
+0x004086ac	->	call!	.textlib/__muls/0x00405ce8	0x004086b0
+0x004086b0	<>	call!	.textlib/__stod/0x00405c98	0x004086b4
+0x004086b4	<-
+0x004086b8	->	call!	.textlib/rint/0x00408c18	0x004086bc
+0x004086bc	<-
+0x004086c0	->	call!	.textlib/__ned/0x00405d38	0x004086c4
+0x004086c4	<-
+0x004086d8	<-
+0x004086dc	<-
+0x004086e0	->	jump?	.textlib/powf/L__0_29954/0x00408718	0x004086e2
+0x004086e2	<>	call!	.textlib/__errno/0x0040079c	0x004086e6
+0x004086e6	<-
+0x004086ec	<-
+0x004086f0	->	jump?	.textlib/powf/L__0_30722/0x004086fa	0x004086f2
+0x004086f2	<>	call!	.textlib/__errno/0x0040079c	0x004086f6
+0x004086f6	<-
+0x004086fa	<-
+0x004086fe	->	call!	.textlib/__dtos/0x00405cd0	0x00408702
+0x00408702	<>	jump!	.textlib/powf/L_BB133_powf/0x00408588
+0x00408704	<>	call!	.textlib/__errno/0x0040079c	0x00408708
+0x00408708	<-
+0x0040870c	->	jump!	.textlib/powf/L__0_34306/0x00408618
+0x0040870e	<>	call!	.textlib/__errno/0x0040079c	0x00408712
+0x00408712	<-
+0x00408716	->	jump!	.textlib/powf/L__0_34050/0x00408638
+0x00408718	<-
+0x0040871a	->	call!	.textlib/matherr/0x00408c00	0x0040871e
+0x0040871e	<-
+0x00408720	->	jump?	.textlib/powf/L__0_30210/0x004086ec	0x00408722
+0x00408722	<>	call!	.textlib/__errno/0x0040079c	0x00408726
+0x00408726	<>	jump!	.textlib/powf/L_BB104_powf/0x004086e6
+0x00408728	<-
+0x00408736	->	jump?	.textlib/powf/L__0_36098/0x004086dc	0x00408738
+0x00408738	<-
+0x00408740	->	call!	.textlib/__muls/0x00405ce8	0x00408744
+0x00408744	<>	call!	.textlib/__stod/0x00405c98	0x00408748
+0x00408748	<-
+0x0040874c	->	call!	.textlib/rint/0x00408c18	0x00408750
+0x00408750	<-
+0x00408754	->	call!	.textlib/__ned/0x00405d38	0x00408758
+0x00408758	<-
+0x0040876a	->	jump!	.textlib/powf/L_BB149_powf/0x004086d8
+}
+
+entry .textlib/pow/0x0040876c = {
+0x0040876c	<-
+0x00408780	->	call!	.textlib/__ieee754_pow/0x00409898	0x00408784
+0x00408784	<-
+0x00408794	->	jump?	.textlib/pow/L_BB118_pow/0x004087a2	0x00408796
+0x00408796	<-
+0x0040879a	->	call!	.textlib/__isnand/0x00408bd4	0x0040879e
+0x0040879e	<-
+0x004087a0	->	jump?	.textlib/pow/L__0_514/0x004087b2	0x004087a2
+0x004087a2	<-
+0x004087b0	->	rts!	<unknown> 
+0x004087b2	<-
+0x004087b6	->	call!	.textlib/__isnand/0x00408bd4	0x004087ba
+0x004087ba	<-
+0x004087c6	->	jump?	.textlib/pow/L__0_20482/0x00408814	0x004087c8
+0x004087c8	<-
+0x004087d4	->	call!	.textlib/__eqd/0x00405d18	0x004087d8
+0x004087d8	<-
+0x004087dc	->	jump?	.textlib/pow/L_BB118_pow/0x004087a2	0x004087de
+0x004087de	<-
+0x0040880a	->	jump?	.textlib/pow/L__0_19458/0x004089d0	0x0040880e
+0x0040880e	<-
+0x00408812	->	jump!	.textlib/pow/L_BB118_pow/0x004087a2
+0x00408814	<-
+0x00408820	->	call!	.textlib/__eqd/0x00405d18	0x00408824
+0x00408824	<-
+0x00408826	->	jump?	.textlib/pow/L__0_22530/0x0040886e	0x00408828
+0x00408828	<-
+0x00408834	->	call!	.textlib/__eqd/0x00405d18	0x00408838
+0x00408838	<-
+0x0040883c	->	jump?	.textlib/pow/L__0_23042/0x00408962	0x0040883e
+0x0040883e	<-
+0x0040885e	->	jump?	.textlib/pow/L__0_23810/0x004089ec	0x00408862
+0x00408862	<-
+0x0040886c	->	jump!	.textlib/pow/L_BB118_pow/0x004087a2
+0x0040886e	<-
+0x00408872	->	call!	.textlib/finite/0x00408b40	0x00408876
+0x00408876	<-
+0x00408878	->	jump?	.textlib/pow/L__0_35074/0x004088f4	0x0040887a
+0x0040887a	<-
+0x0040887e	->	call!	.textlib/finite/0x00408b40	0x00408882
+0x00408882	<-
+0x00408884	->	jump?	.textlib/pow/L__0_35074/0x004088f4	0x00408886
+0x00408886	<-
+0x0040888a	->	call!	.textlib/finite/0x00408b40	0x0040888e
+0x0040888e	<-
+0x00408890	->	jump?	.textlib/pow/L__0_35074/0x004088f4	0x00408892
+0x00408892	<-
+0x00408896	->	call!	.textlib/__isnand/0x00408bd4	0x0040889a
+0x0040889a	<-
+0x004088aa	->	jump?	.textlib/pow/L__0_27394/0x00408a44	0x004088ae
+0x004088ae	<-
+0x004088d6	->	jump?	.textlib/pow/L__0_27906/0x00408a18	0x004088da
+0x004088da	<>	call!	.textlib/__errno/0x0040079c	0x004088de
+0x004088de	<-
+0x004088e4	<-
+0x004088e8	->	jump?	.textlib/pow/L__0_32258/0x0040895c	0x004088ea
+0x004088ea	<>	call!	.textlib/__errno/0x0040079c	0x004088ee
+0x004088ee	<-
+0x004088f2	->	jump!	.textlib/pow/L__0_32258/0x0040895c
+0x004088f4	<-
+0x00408900	->	call!	.textlib/__eqd/0x00405d18	0x00408904
+0x00408904	<-
+0x00408906	->	jump?	.textlib/pow/L_BB118_pow/0x004087a2	0x00408908
+0x00408908	<-
+0x0040890c	->	call!	.textlib/finite/0x00408b40	0x00408910
+0x00408910	<-
+0x00408912	->	jump?	.textlib/pow/L_BB118_pow/0x004087a2	0x00408914
+0x00408914	<-
+0x00408918	->	call!	.textlib/finite/0x00408b40	0x0040891c
+0x0040891c	<-
+0x0040891e	->	jump?	.textlib/pow/L_BB118_pow/0x004087a2	0x00408920
+0x00408920	<-
+0x00408942	->	jump?	.textlib/pow/L__0_31490/0x00408a08	0x00408944
+0x00408944	<>	call!	.textlib/__errno/0x0040079c	0x00408948
+0x00408948	<-
+0x0040894e	<-
+0x00408952	->	jump?	.textlib/pow/L__0_32258/0x0040895c	0x00408954
+0x00408954	<>	call!	.textlib/__errno/0x0040079c	0x00408958
+0x00408958	<-
+0x0040895c	<-
+0x00408960	->	jump!	.textlib/pow/L_BB118_pow/0x004087a2
+0x00408962	<-
+0x00408966	->	call!	.textlib/finite/0x00408b40	0x0040896a
+0x0040896a	<-
+0x0040896c	->	jump?	.textlib/pow/L_BB118_pow/0x004087a2	0x00408970
+0x00408970	<-
+0x0040897c	->	call!	.textlib/__ltd/0x00405d30	0x00408980
+0x00408980	<-
+0x00408982	->	jump?	.textlib/pow/L_BB118_pow/0x004087a2	0x00408986
+0x00408986	<-
+0x004089b4	->	jump?	.textlib/pow/L__0_25346/0x00408a28	0x004089b6
+0x004089b6	<>	call!	.textlib/__errno/0x0040079c	0x004089ba
+0x004089ba	<-
+0x004089c0	<-
+0x004089c4	->	jump?	.textlib/pow/L__0_32258/0x0040895c	0x004089c6
+0x004089c6	<>	call!	.textlib/__errno/0x0040079c	0x004089ca
+0x004089ca	<-
+0x004089ce	->	jump!	.textlib/pow/L__0_32258/0x0040895c
+0x004089d0	<-
+0x004089d2	->	call!	.textlib/matherr/0x00408c00	0x004089d6
+0x004089d6	<-
+0x004089d8	->	jump?	.textlib/pow/L__0_21506/0x004089e4	0x004089da
+0x004089da	<>	call!	.textlib/__errno/0x0040079c	0x004089de
+0x004089de	<-
+0x004089e4	<-
+0x004089e8	->	jump?	.textlib/pow/L__0_32258/0x0040895c	0x004089ea
+0x004089ea	<>	jump!	.textlib/pow/L_BB18_pow/0x00408a38
+0x004089ec	<-
+0x004089ee	->	call!	.textlib/matherr/0x00408c00	0x004089f2
+0x004089f2	<-
+0x004089f4	->	jump?	.textlib/pow/L__0_24066/0x00408a00	0x004089f6
+0x004089f6	<>	call!	.textlib/__errno/0x0040079c	0x004089fa
+0x004089fa	<-
+0x00408a00	<-
+0x00408a04	->	jump?	.textlib/pow/L__0_32258/0x0040895c	0x00408a06
+0x00408a06	<>	jump!	.textlib/pow/L_BB34_pow/0x00408a3e
+0x00408a08	<-
+0x00408a0a	->	call!	.textlib/matherr/0x00408c00	0x00408a0e
+0x00408a0e	<-
+0x00408a10	->	jump?	.textlib/pow/L__0_31746/0x0040894e	0x00408a12
+0x00408a12	<>	call!	.textlib/__errno/0x0040079c	0x00408a16
+0x00408a16	<>	jump!	.textlib/pow/L_BB107_pow/0x00408948
+0x00408a18	<-
+0x00408a1a	->	call!	.textlib/matherr/0x00408c00	0x00408a1e
+0x00408a1e	<-
+0x00408a20	->	jump?	.textlib/pow/L__0_28162/0x004088e4	0x00408a22
+0x00408a22	<>	call!	.textlib/__errno/0x0040079c	0x00408a26
+0x00408a26	<>	jump!	.textlib/pow/L_BB64_pow/0x004088de
+0x00408a28	<-
+0x00408a2a	->	call!	.textlib/matherr/0x00408c00	0x00408a2e
+0x00408a2e	<-
+0x00408a30	->	jump?	.textlib/pow/L__0_25602/0x004089c0	0x00408a32
+0x00408a32	<>	call!	.textlib/__errno/0x0040079c	0x00408a36
+0x00408a36	<>	jump!	.textlib/pow/L_BB44_pow/0x004089ba
+0x00408a38	<>	call!	.textlib/__errno/0x0040079c	0x00408a3c
+0x00408a3c	<>	jump!	.textlib/pow/L_BB114_pow/0x00408958
+0x00408a3e	<>	call!	.textlib/__errno/0x0040079c	0x00408a42
+0x00408a42	<>	jump!	.textlib/pow/L_BB114_pow/0x00408958
+0x00408a44	<-
+0x00408a62	->	call!	.textlib/__ltd/0x00405d30	0x00408a66
+0x00408a66	<-
+0x00408a68	->	jump?	.textlib/pow/L__0_29442/0x00408ae8	0x00408a6a
+0x00408a6a	<-
+0x00408a7c	->	jump?	.textlib/pow/L__0_36098/0x00408ab6	0x00408a7e
+0x00408a7e	<-
+0x00408a8a	->	call!	.textlib/__muld/0x00405cb0	0x00408a8e
+0x00408a8e	<-
+0x00408a92	->	call!	.textlib/rint/0x00408c18	0x00408a96
+0x00408a96	<-
+0x00408a9a	->	call!	.textlib/__ned/0x00405d38	0x00408a9e
+0x00408a9e	<-
+0x00408ab2	<-
+0x00408ab6	<-
+0x00408abc	->	jump?	.textlib/pow/L__0_29954/0x00408ad8	0x00408abe
+0x00408abe	<>	call!	.textlib/__errno/0x0040079c	0x00408ac2
+0x00408ac2	<-
+0x00408ac8	<-
+0x00408acc	->	jump?	.textlib/pow/L__0_32258/0x0040895c	0x00408ace
+0x00408ace	<>	call!	.textlib/__errno/0x0040079c	0x00408ad2
+0x00408ad2	<-
+0x00408ad6	->	jump!	.textlib/pow/L__0_32258/0x0040895c
+0x00408ad8	<-
+0x00408ada	->	call!	.textlib/matherr/0x00408c00	0x00408ade
+0x00408ade	<-
+0x00408ae0	->	jump?	.textlib/pow/L__0_30210/0x00408ac8	0x00408ae2
+0x00408ae2	<>	call!	.textlib/__errno/0x0040079c	0x00408ae6
+0x00408ae6	<>	jump!	.textlib/pow/L_BB90_pow/0x00408ac2
+0x00408ae8	<-
+0x00408af6	->	jump?	.textlib/pow/L__0_36098/0x00408ab6	0x00408af8
+0x00408af8	<-
+0x00408b02	->	call!	.textlib/__muld/0x00405cb0	0x00408b06
+0x00408b06	<-
+0x00408b0a	->	call!	.textlib/rint/0x00408c18	0x00408b0e
+0x00408b0e	<-
+0x00408b12	->	call!	.textlib/__ned/0x00405d38	0x00408b16
+0x00408b16	<-
+0x00408b28	->	jump!	.textlib/pow/L_BB131_pow/0x00408ab2
+}
+
+entry .textlib/finitef/0x00408b2c = {
+0x00408b2c	<-
+0x00408b3c	->	rts!	<unknown> 
+}
+
+entry .textlib/finite/0x00408b40 = {
+0x00408b40	<-
+0x00408b5a	->	rts!	<unknown> 
+}
+
+entry .textlib/__isnanf/0x00408b5c = {
+0x00408b5c	<-
+0x00408b6c	->	rts!	<unknown> 
+}
+
+entry .textlib/roundf/0x00408b70 = {
+0x00408b70	<-
+0x00408b80	->	jump?	.textlib/roundf/L__0_6402/0x00408baa	0x00408b82
+0x00408b82	<-
+0x00408b86	->	jump?	.textlib/roundf/L_BB3_roundf/0x00408bb2	0x00408b88
+0x00408b88	<-
+0x00408b96	->	rts?	<unknown> 	0x00408b9a
+0x00408b9a	<-
+0x00408ba8	<>	rts!	<unknown> 
+0x00408baa	<-
+0x00408bae	->	jump?	.textlib/roundf/L_BB14_roundf/0x00408ba8	0x00408bb0
+0x00408bb0	<>	jump!	.textlib/roundf/L_BB11_roundf/0x00408bca
+0x00408bb2	<-
+0x00408bc8	->	rts!	<unknown> 
+0x00408bca	<-
+0x00408bd0	->	jump!	.textlib/__muls/0x00405ce8
+}
+
+entry .textlib/__isnand/0x00408bd4 = {
+0x00408bd4	<-
+0x00408bfe	->	rts!	<unknown> 
+}
+
+entry .textlib/matherr/0x00408c00 = {
+0x00408c00	<-
+0x00408c0c	->	call!	.textlib/__ned/0x00405d38	0x00408c10
+0x00408c10	<-
+0x00408c16	->	rts!	<unknown> 
+}
+
+entry .textlib/rint/0x00408c18 = {
+0x00408c18	<-
+0x00408c4c	->	jump?	.textlib/rint/L__0_11522/0x00408c94	0x00408c4e
+0x00408c4e	<-
+0x00408c56	->	jump?	.textlib/rint/L_BB3_rint/0x00408d1a	0x00408c58
+0x00408c58	<-
+0x00408c66	->	jump?	.textlib/rint/L_BB27_rint/0x00408d0c	0x00408c68
+0x00408c68	<-
+0x00408c72	->	jump?	.textlib/rint/L__0_18178/0x00408cc8	0x00408c74
+0x00408c74	<-
+0x00408c92	->	jump!	.textlib/rint/L__0_18178/0x00408cc8
+0x00408c94	<-
+0x00408c98	->	jump?	.textlib/rint/L_BB16_rint/0x00408d04	0x00408c9a
+0x00408c9a	<-
+0x00408cae	->	jump?	.textlib/rint/L_BB27_rint/0x00408d0c	0x00408cb0
+0x00408cb0	<-
+0x00408cc8	<-
+0x00408cee	->	call!	.textlib/__addd/0x00405c88	0x00408cf2
+0x00408cf2	<-
+0x00408d00	->	jump!	.textlib/__subd/0x00405cb8
+0x00408d04	<-
+0x00408d0a	->	jump?	.textlib/rint/L_BB17_rint/0x00408d2e	0x00408d0c
+0x00408d0c	<-
+0x00408d18	->	rts!	<unknown> 
+0x00408d1a	<-
+0x00408d2a	->	jump?	.textlib/rint/L_BB27_rint/0x00408d0c	0x00408d2c
+0x00408d2c	<>	jump!	.textlib/rint/L__0_12290/0x00408d40
+0x00408d2e	<-
+0x00408d3c	->	jump!	.textlib/__muld/0x00405cb0
+0x00408d40	<-
+0x00408d7e	->	call!	.textlib/__addd/0x00405c88	0x00408d82
+0x00408d82	<-
+0x00408d8a	->	call!	.textlib/__subd/0x00405cb8	0x00408d8e
+0x00408d8e	<-
+0x00408da6	->	jump!	.textlib/rint/L_BB27_rint/0x00408d0c
+}
+
+entry .textlib/__ieee754_powf/0x00408da8 = {
+0x00408da8	<-
+0x00408dca	->	jump?	.textlib/__ieee754_powf/L_BB20___ieee754_powf/0x00408e9a	0x00408dcc
+0x00408dcc	<-
+0x00408dde	->	jump?	.textlib/__ieee754_powf/L__0_46594/0x00408e14	0x00408de0
+0x00408de0	<-
+0x00408de8	->	jump?	.textlib/__ieee754_powf/L_BB250___ieee754_powf/0x00408e06	0x00408dea
+0x00408dea	<-
+0x00408dfa	->	jump!	.textlib/nanf/0x0040a870
+0x00408dfe	<-
+0x00408e06	<-
+0x00408e12	->	rts!	<unknown> 
+0x00408e14	<-
+0x00408e22	->	jump?	.textlib/__ieee754_powf/L_BB8___ieee754_powf/0x00408e8a	0x00408e24
+0x00408e24	<-
+0x00408e28	->	jump?	.textlib/__ieee754_powf/L__0_52482/0x00408e42	0x00408e2a
+0x00408e2a	<-
+0x00408e2e	->	jump?	.textlib/__ieee754_powf/L_BB20___ieee754_powf/0x00408e9a	0x00408e30
+0x00408e30	<-
+0x00408e34	->	jump?	.textlib/__ieee754_powf/L_BB22___ieee754_powf/0x00408ee0	0x00408e36
+0x00408e36	<-
+0x00408e40	->	jump!	.textlib/__ieee754_powf/L_BB250___ieee754_powf/0x00408e06
+0x00408e42	<-
+0x00408e4c	->	jump?	.textlib/__ieee754_powf/L__0_54530/0x00408e62	0x00408e4e
+0x00408e4e	<-
+0x00408e50	->	jump?	.textlib/__ieee754_powf/L_BB250___ieee754_powf/0x00408e06	0x00408e52
+0x00408e52	<-
+0x00408e5e	->	jump!	.textlib/__recips/0x00405cf0
+0x00408e62	<-
+0x00408e68	->	jump?	.textlib/__ieee754_powf/L_BB33___ieee754_powf/0x00408f1c	0x00408e6a
+0x00408e6a	<-
+0x00408e78	->	jump?	.textlib/__ieee754_powf/L__0_56834/0x00408ea2	0x00408e7a
+0x00408e7a	<-
+0x00408e86	->	jump!	.textlib/__ieee754_sqrtf/0x004097c4
+0x00408e8a	<-
+0x00408e94	->	jump?	.textlib/__ieee754_powf/L__0_51202/0x00408eec	0x00408e96
+0x00408e96	<-
+0x00408e98	->	jump!	.textlib/__ieee754_powf/L__0_50434/0x00408e24
+0x00408e9a	<-
+0x00408ea0	->	jump!	.textlib/__ieee754_powf/L_BB250___ieee754_powf/0x00408e06
+0x00408ea2	<-
+0x00408ea4	->	call!	.textlib/fabsf/0x0040a868	0x00408ea8
+0x00408ea8	<-
+0x00408eac	->	jump?	.textlib/__ieee754_powf/L__0_84994/0x00408eba	0x00408eae
+0x00408eae	<-
+0x00408eb8	->	jump?	.textlib/__ieee754_powf/L__0_47106/0x00408f40	0x00408eba
+0x00408eba	<-
+0x00408ebe	->	jump?	.textlib/__ieee754_powf/L__0_57090/0x00408ec6	0x00408ec0
+0x00408ec0	<>	call!	.textlib/__recips/0x00405cf0	0x00408ec4
+0x00408ec4	<-
+0x00408ec6	<-
+0x00408ec8	->	jump?	.textlib/__ieee754_powf/L_BB250___ieee754_powf/0x00408e06	0x00408eca
+0x00408eca	<-
+0x00408ed6	->	jump?	.textlib/__ieee754_powf/L_BB242___ieee754_powf/0x00408f2e	0x00408ed8
+0x00408ed8	<-
+0x00408ede	->	jump!	.textlib/__ieee754_powf/L_BB250___ieee754_powf/0x00408e06
+0x00408ee0	<-
+0x00408eea	->	jump!	.textlib/__ieee754_powf/L_BB250___ieee754_powf/0x00408e06
+0x00408eec	<-
+0x00408ef0	->	jump?	.textlib/__ieee754_powf/L__0_50434/0x00408e24	0x00408ef2
+0x00408ef2	<-
+0x00408f1a	->	jump!	.textlib/__ieee754_powf/L__0_50434/0x00408e24
+0x00408f1c	<-
+0x00408f2a	->	jump!	.textlib/__muls/0x00405ce8
+0x00408f2e	<-
+0x00408f32	->	call!	.textlib/__subs/0x00405cf8	0x00408f36
+0x00408f36	<-
+0x00408f38	->	call!	.textlib/__divs/0x00405cc8	0x00408f3c
+0x00408f3c	<-
+0x00408f3e	->	jump!	.textlib/__ieee754_powf/L_BB250___ieee754_powf/0x00408e06
+0x00408f40	<-
+0x00408f4e	->	jump?	.textlib/__ieee754_powf/L_BB48___ieee754_powf/0x004096c6	0x00408f52
+0x00408f52	<-
+0x00408f5c	->	jump?	.textlib/__ieee754_powf/L__0_2306/0x00408f7c	0x00408f5e
+0x00408f5e	<-
+0x00408f66	->	jump?	.textlib/__ieee754_powf/L_BB53___ieee754_powf/0x004096ac	0x00408f6a
+0x00408f6a	<-
+0x00408f72	->	jump?	.textlib/__ieee754_powf/L__0_62466/0x004095fe	0x00408f76
+0x00408f76	<-
+0x00408f7a	->	jump!	.textlib/__ieee754_powf/L_BB313___ieee754_powf/0x00408dfe
+0x00408f7c	<-
+0x00408f84	->	jump?	.textlib/__ieee754_powf/L_BB72___ieee754_powf/0x004096b4	0x00408f88
+0x00408f88	<-
+0x00408f8a	<-
+0x00408fa8	->	jump?	.textlib/__ieee754_powf/L__0_64258/0x00408fb0	0x00408faa
+0x00408faa	<-
+0x00408fae	->	jump!	.textlib/__ieee754_powf/L__0_64514/0x00408fce
+0x00408fb0	<-
+0x00408fce	<-
+0x00408fe2	->	call!	.textlib/__adds/0x00405cc0	0x00408fe6
+0x00408fe6	<-
+0x00408fee	->	call!	.textlib/__subs/0x00405cf8	0x00408ff2
+0x00408ff2	<-
+0x00408ff8	->	call!	.textlib/__recips/0x00405cf0	0x00408ffc
+0x00408ffc	<-
+0x00409004	->	call!	.textlib/__muls/0x00405ce8	0x00409008
+0x00409008	<-
+0x00409010	->	call!	.textlib/__muls/0x00405ce8	0x00409014
+0x00409014	<-
+0x0040901c	->	call!	.textlib/__muls/0x00405ce8	0x00409020
+0x00409020	<-
+0x00409026	->	call!	.textlib/__adds/0x00405cc0	0x0040902a
+0x0040902a	<-
+0x0040902e	->	call!	.textlib/__muls/0x00405ce8	0x00409032
+0x00409032	<-
+0x00409038	->	call!	.textlib/__adds/0x00405cc0	0x0040903c
+0x0040903c	<-
+0x00409040	->	call!	.textlib/__muls/0x00405ce8	0x00409044
+0x00409044	<-
+0x0040904a	->	call!	.textlib/__adds/0x00405cc0	0x0040904e
+0x0040904e	<-
+0x00409052	->	call!	.textlib/__muls/0x00405ce8	0x00409056
+0x00409056	<-
+0x0040905c	->	call!	.textlib/__adds/0x00405cc0	0x00409060
+0x00409060	<-
+0x00409064	->	call!	.textlib/__muls/0x00405ce8	0x00409068
+0x00409068	<-
+0x0040906e	->	call!	.textlib/__adds/0x00405cc0	0x00409072
+0x00409072	<-
+0x0040907a	->	call!	.textlib/__muls/0x00405ce8	0x0040907e
+0x0040907e	<-
+0x00409084	->	call!	.textlib/__muls/0x00405ce8	0x00409088
+0x00409088	<-
+0x004090a8	->	call!	.textlib/__subs/0x00405cf8	0x004090ac
+0x004090ac	<-
+0x004090b2	->	call!	.textlib/__subs/0x00405cf8	0x004090b6
+0x004090b6	<-
+0x004090c8	->	call!	.textlib/__muls/0x00405ce8	0x004090cc
+0x004090cc	<-
+0x004090d2	->	call!	.textlib/__subs/0x00405cf8	0x004090d6
+0x004090d6	<-
+0x004090e0	->	call!	.textlib/__muls/0x00405ce8	0x004090e4
+0x004090e4	<-
+0x004090ee	->	call!	.textlib/__subs/0x00405cf8	0x004090f2
+0x004090f2	<-
+0x004090f8	->	call!	.textlib/__muls/0x00405ce8	0x004090fc
+0x004090fc	<-
+0x00409106	->	call!	.textlib/__adds/0x00405cc0	0x0040910a
+0x0040910a	<-
+0x00409114	->	call!	.textlib/__muls/0x00405ce8	0x00409118
+0x00409118	<-
+0x0040911e	->	call!	.textlib/__adds/0x00405cc0	0x00409122
+0x00409122	<-
+0x0040912a	->	call!	.textlib/__muls/0x00405ce8	0x0040912e
+0x0040912e	<-
+0x00409136	->	call!	.textlib/__adds/0x00405cc0	0x0040913a
+0x0040913a	<-
+0x00409140	->	call!	.textlib/__adds/0x00405cc0	0x00409144
+0x00409144	<-
+0x00409152	->	call!	.textlib/__adds/0x00405cc0	0x00409156
+0x00409156	<-
+0x0040915e	->	call!	.textlib/__muls/0x00405ce8	0x00409162
+0x00409162	<-
+0x0040916a	->	call!	.textlib/__subs/0x00405cf8	0x0040916e
+0x0040916e	<-
+0x00409174	->	call!	.textlib/__subs/0x00405cf8	0x00409178
+0x00409178	<-
+0x0040917e	->	call!	.textlib/__muls/0x00405ce8	0x00409182
+0x00409182	<-
+0x0040918c	->	call!	.textlib/__muls/0x00405ce8	0x00409190
+0x00409190	<-
+0x00409194	->	call!	.textlib/__adds/0x00405cc0	0x00409198
+0x00409198	<-
+0x004091a0	->	call!	.textlib/__adds/0x00405cc0	0x004091a4
+0x004091a4	<-
+0x004091ac	->	call!	.textlib/__wtos/0x00405cd8	0x004091b0
+0x004091b0	<-
+0x004091d0	->	call!	.textlib/__muls/0x00405ce8	0x004091d4
+0x004091d4	<-
+0x004091e4	->	call!	.textlib/__muls/0x00405ce8	0x004091e8
+0x004091e8	<-
+0x004091fe	->	call!	.textlib/__subs/0x00405cf8	0x00409202
+0x00409202	<-
+0x00409206	->	call!	.textlib/__subs/0x00405cf8	0x0040920a
+0x0040920a	<-
+0x00409210	->	call!	.textlib/__muls/0x00405ce8	0x00409214
+0x00409214	<-
+0x0040921a	->	call!	.textlib/__adds/0x00405cc0	0x0040921e
+0x0040921e	<-
+0x00409224	->	call!	.textlib/__adds/0x00405cc0	0x00409228
+0x00409228	<-
+0x00409230	->	call!	.textlib/__adds/0x00405cc0	0x00409234
+0x00409234	<-
+0x0040923a	->	call!	.textlib/__adds/0x00405cc0	0x0040923e
+0x0040923e	<-
+0x00409244	->	call!	.textlib/__adds/0x00405cc0	0x00409248
+0x00409248	<-
+0x00409254	->	call!	.textlib/__subs/0x00405cf8	0x00409258
+0x00409258	<-
+0x0040925c	->	call!	.textlib/__subs/0x00405cf8	0x00409260
+0x00409260	<-
+0x00409264	->	call!	.textlib/__subs/0x00405cf8	0x00409268
+0x00409268	<-
+0x0040926c	->	call!	.textlib/__subs/0x00405cf8	0x00409270
+0x00409270	<-
+0x00409298	->	call!	.textlib/__muls/0x00405ce8	0x0040929c
+0x0040929c	<-
+0x004092a6	->	call!	.textlib/__muls/0x00405ce8	0x004092aa
+0x004092aa	<-
+0x004092b2	->	call!	.textlib/__subs/0x00405cf8	0x004092b6
+0x004092b6	<-
+0x004092bc	->	call!	.textlib/__muls/0x00405ce8	0x004092c0
+0x004092c0	<-
+0x004092c4	->	call!	.textlib/__adds/0x00405cc0	0x004092c8
+0x004092c8	<-
+0x004092d0	->	call!	.textlib/__adds/0x00405cc0	0x004092d4
+0x004092d4	<-
+0x004092dc	->	jump?	.textlib/__ieee754_powf/L__0_75778/0x004096de	0x004092e0
+0x004092e0	<-
+0x004092ea	->	jump?	.textlib/__ieee754_powf/L_BB145___ieee754_powf/0x0040972e	0x004092ee
+0x004092ee	<-
+0x004092f4	->	jump?	.textlib/__ieee754_powf/L_BB149___ieee754_powf/0x0040974c	0x004092f8
+0x004092f8	<-
+0x0040932a	->	jump?	.textlib/__ieee754_powf/L__0_79362/0x004094b8	0x0040932c
+0x0040932c	<-
+0x00409376	->	call!	.textlib/__subs/0x00405cf8	0x0040937a
+0x0040937a	<-
+0x00409384	->	call!	.textlib/__adds/0x00405cc0	0x00409388
+0x00409388	<-
+0x00409394	->	call!	.textlib/__subs/0x00405cf8	0x00409398
+0x00409398	<-
+0x004093a6	->	call!	.textlib/__muls/0x00405ce8	0x004093aa
+0x004093aa	<-
+0x004093b6	->	call!	.textlib/__muls/0x00405ce8	0x004093ba
+0x004093ba	<-
+0x004093c6	->	call!	.textlib/__subs/0x00405cf8	0x004093ca
+0x004093ca	<-
+0x004093ce	->	call!	.textlib/__muls/0x00405ce8	0x004093d2
+0x004093d2	<-
+0x004093d6	->	call!	.textlib/__adds/0x00405cc0	0x004093da
+0x004093da	<-
+0x004093e4	->	call!	.textlib/__adds/0x00405cc0	0x004093e8
+0x004093e8	<-
+0x004093ee	->	call!	.textlib/__subs/0x00405cf8	0x004093f2
+0x004093f2	<-
+0x004093f8	->	call!	.textlib/__subs/0x00405cf8	0x004093fc
+0x004093fc	<-
+0x00409404	->	call!	.textlib/__muls/0x00405ce8	0x00409408
+0x00409408	<-
+0x00409410	->	call!	.textlib/__muls/0x00405ce8	0x00409414
+0x00409414	<-
+0x00409418	->	call!	.textlib/__adds/0x00405cc0	0x0040941c
+0x0040941c	<-
+0x00409422	->	call!	.textlib/__muls/0x00405ce8	0x00409426
+0x00409426	<-
+0x00409428	->	call!	.textlib/__adds/0x00405cc0	0x0040942c
+0x0040942c	<-
+0x00409432	->	call!	.textlib/__muls/0x00405ce8	0x00409436
+0x00409436	<-
+0x00409438	->	call!	.textlib/__adds/0x00405cc0	0x0040943c
+0x0040943c	<-
+0x00409442	->	call!	.textlib/__muls/0x00405ce8	0x00409446
+0x00409446	<-
+0x00409448	->	call!	.textlib/__adds/0x00405cc0	0x0040944c
+0x0040944c	<-
+0x00409452	->	call!	.textlib/__muls/0x00405ce8	0x00409456
+0x00409456	<-
+0x0040945a	->	call!	.textlib/__subs/0x00405cf8	0x0040945e
+0x0040945e	<-
+0x00409464	->	call!	.textlib/__muls/0x00405ce8	0x00409468
+0x00409468	<-
+0x0040946e	->	call!	.textlib/__adds/0x00405cc0	0x00409472
+0x00409472	<-
+0x00409476	->	call!	.textlib/__divs/0x00405cc8	0x0040947a
+0x0040947a	<-
+0x00409482	->	call!	.textlib/__muls/0x00405ce8	0x00409486
+0x00409486	<-
+0x0040948c	->	call!	.textlib/__adds/0x00405cc0	0x00409490
+0x00409490	<-
+0x00409494	->	call!	.textlib/__subs/0x00405cf8	0x00409498
+0x00409498	<-
+0x0040949a	->	call!	.textlib/__subs/0x00405cf8	0x0040949e
+0x0040949e	<-
+0x004094a4	->	call!	.textlib/__subs/0x00405cf8	0x004094a8
+0x004094a8	<-
+0x004094b4	->	jump?	.textlib/__ieee754_powf/L__0_83458/0x004095e8	0x004094b6
+0x004094b6	<>	jump!	.textlib/__ieee754_powf/L__0_84482/0x00409798
+0x004094b8	<-
+0x004094c8	->	call!	.textlib/__subs/0x00405cf8	0x004094cc
+0x004094cc	<-
+0x004094da	->	call!	.textlib/__muls/0x00405ce8	0x004094de
+0x004094de	<-
+0x004094ea	->	call!	.textlib/__muls/0x00405ce8	0x004094ee
+0x004094ee	<-
+0x004094fa	->	call!	.textlib/__subs/0x00405cf8	0x004094fe
+0x004094fe	<-
+0x00409502	->	call!	.textlib/__muls/0x00405ce8	0x00409506
+0x00409506	<-
+0x0040950a	->	call!	.textlib/__adds/0x00405cc0	0x0040950e
+0x0040950e	<-
+0x00409518	->	call!	.textlib/__adds/0x00405cc0	0x0040951c
+0x0040951c	<-
+0x00409522	->	call!	.textlib/__subs/0x00405cf8	0x00409526
+0x00409526	<-
+0x0040952c	->	call!	.textlib/__subs/0x00405cf8	0x00409530
+0x00409530	<-
+0x00409538	->	call!	.textlib/__muls/0x00405ce8	0x0040953c
+0x0040953c	<-
+0x00409544	->	call!	.textlib/__muls/0x00405ce8	0x00409548
+0x00409548	<-
+0x0040954c	->	call!	.textlib/__adds/0x00405cc0	0x00409550
+0x00409550	<-
+0x00409556	->	call!	.textlib/__muls/0x00405ce8	0x0040955a
+0x0040955a	<-
+0x0040955c	->	call!	.textlib/__adds/0x00405cc0	0x00409560
+0x00409560	<-
+0x00409566	->	call!	.textlib/__muls/0x00405ce8	0x0040956a
+0x0040956a	<-
+0x0040956c	->	call!	.textlib/__adds/0x00405cc0	0x00409570
+0x00409570	<-
+0x00409576	->	call!	.textlib/__muls/0x00405ce8	0x0040957a
+0x0040957a	<-
+0x0040957c	->	call!	.textlib/__adds/0x00405cc0	0x00409580
+0x00409580	<-
+0x00409586	->	call!	.textlib/__muls/0x00405ce8	0x0040958a
+0x0040958a	<-
+0x0040958e	->	call!	.textlib/__subs/0x00405cf8	0x00409592
+0x00409592	<-
+0x00409598	->	call!	.textlib/__muls/0x00405ce8	0x0040959c
+0x0040959c	<-
+0x004095a2	->	call!	.textlib/__adds/0x00405cc0	0x004095a6
+0x004095a6	<-
+0x004095aa	->	call!	.textlib/__divs/0x00405cc8	0x004095ae
+0x004095ae	<-
+0x004095b6	->	call!	.textlib/__muls/0x00405ce8	0x004095ba
+0x004095ba	<-
+0x004095c0	->	call!	.textlib/__adds/0x00405cc0	0x004095c4
+0x004095c4	<-
+0x004095c8	->	call!	.textlib/__subs/0x00405cf8	0x004095cc
+0x004095cc	<-
+0x004095ce	->	call!	.textlib/__subs/0x00405cf8	0x004095d2
+0x004095d2	<-
+0x004095d8	->	call!	.textlib/__subs/0x00405cf8	0x004095dc
+0x004095dc	<-
+0x004095e2	->	jump?	.textlib/__ieee754_powf/L_BB234___ieee754_powf/0x00409794	0x004095e6
+0x004095e6	<-
+0x004095e8	<-
+0x004095ec	<-
+0x004095fa	->	jump!	.textlib/__muls/0x00405ce8
+0x004095fe	<-
+0x00409604	->	call!	.textlib/__adds/0x00405cc0	0x00409608
+0x00409608	<-
+0x00409610	->	call!	.textlib/__muls/0x00405ce8	0x00409614
+0x00409614	<-
+0x0040961c	->	call!	.textlib/__muls/0x00405ce8	0x00409620
+0x00409620	<-
+0x0040962c	->	call!	.textlib/__muls/0x00405ce8	0x00409630
+0x00409630	<-
+0x0040963a	->	call!	.textlib/__muls/0x00405ce8	0x0040963e
+0x0040963e	<-
+0x0040964a	->	call!	.textlib/__adds/0x00405cc0	0x0040964e
+0x0040964e	<-
+0x00409652	->	call!	.textlib/__muls/0x00405ce8	0x00409656
+0x00409656	<-
+0x0040965e	->	call!	.textlib/__subs/0x00405cf8	0x00409662
+0x00409662	<-
+0x00409668	->	call!	.textlib/__muls/0x00405ce8	0x0040966c
+0x0040966c	<-
+0x00409672	->	call!	.textlib/__muls/0x00405ce8	0x00409676
+0x00409676	<-
+0x0040967c	->	call!	.textlib/__adds/0x00405cc0	0x00409680
+0x00409680	<-
+0x00409688	->	call!	.textlib/__adds/0x00405cc0	0x0040968c
+0x0040968c	<-
+0x0040969c	->	call!	.textlib/__subs/0x00405cf8	0x004096a0
+0x004096a0	<-
+0x004096a4	->	call!	.textlib/__subs/0x00405cf8	0x004096a8
+0x004096a8	<>	jump!	.textlib/__ieee754_powf/L_BB133___ieee754_powf/0x00409270
+0x004096ac	<-
+0x004096b0	->	jump!	.textlib/__ieee754_powf/L_BB313___ieee754_powf/0x00408dfe
+0x004096b4	<-
+0x004096ba	->	call!	.textlib/__muls/0x00405ce8	0x004096be
+0x004096be	<-
+0x004096c2	->	jump!	.textlib/__ieee754_powf/L__0_62722/0x00408f8a
+0x004096c6	<-
+0x004096ca	->	call!	.textlib/__subs/0x00405cf8	0x004096ce
+0x004096ce	<-
+0x004096da	->	jump!	.textlib/__divs/0x00405cc8
+0x004096de	<-
+0x004096e8	->	jump?	.textlib/__ieee754_powf/L_BB159___ieee754_powf/0x004097a6	0x004096ea
+0x004096ea	<-
+0x004096f0	->	jump?	.textlib/__ieee754_powf/L__0_78850/0x004092f8	0x004096f4
+0x004096f4	<-
+0x004096fc	->	call!	.textlib/__subs/0x00405cf8	0x00409700
+0x00409700	<-
+0x00409706	->	call!	.textlib/__les/0x00405d58	0x0040970a
+0x0040970a	<-
+0x0040970c	->	jump?	.textlib/__ieee754_powf/L__0_78850/0x004092f8	0x00409710
+0x00409710	<-
+0x0040971a	->	call!	.textlib/__muls/0x00405ce8	0x0040971e
+0x0040971e	<-
+0x0040972a	->	jump!	.textlib/__muls/0x00405ce8
+0x0040972e	<-
+0x00409738	->	call!	.textlib/__muls/0x00405ce8	0x0040973c
+0x0040973c	<-
+0x00409748	->	jump!	.textlib/__muls/0x00405ce8
+0x0040974c	<-
+0x00409756	->	call!	.textlib/__adds/0x00405cc0	0x0040975a
+0x0040975a	<-
+0x00409762	->	call!	.textlib/__subs/0x00405cf8	0x00409766
+0x00409766	<-
+0x0040976a	->	call!	.textlib/__gts/0x00405d50	0x0040976e
+0x0040976e	<-
+0x00409772	->	jump?	.textlib/__ieee754_powf/L__0_78850/0x004092f8	0x00409776
+0x00409776	<-
+0x00409780	->	call!	.textlib/__muls/0x00405ce8	0x00409784
+0x00409784	<-
+0x00409790	->	jump!	.textlib/__muls/0x00405ce8
+0x00409794	<-
+0x00409798	<-
+0x0040979e	->	call!	.textlib/scalbnf/0x0040a878	0x004097a2
+0x004097a2	<-
+0x004097a4	->	jump!	.textlib/__ieee754_powf/L__0_83202/0x004095ec
+0x004097a6	<-
+0x004097b0	->	call!	.textlib/__muls/0x00405ce8	0x004097b4
+0x004097b4	<-
+0x004097c0	->	jump!	.textlib/__muls/0x00405ce8
+}
+
+entry .textlib/__ieee754_sqrtf/0x004097c4 = {
+0x004097c4	<-
+0x004097d6	->	jump?	.textlib/__ieee754_sqrtf/L_BB2___ieee754_sqrtf/0x00409870	0x004097d8
+0x004097d8	<-
+0x004097da	->	jump?	.textlib/__ieee754_sqrtf/L_BB25___ieee754_sqrtf/0x00409868	0x004097dc
+0x004097dc	<-
+0x004097e4	->	jump?	.textlib/__ieee754_sqrtf/L_BB8___ieee754_sqrtf/0x00409884	0x004097e6
+0x004097e6	<-
+0x004097f0	->	jump?	.textlib/__ieee754_sqrtf/L__0_11266/0x004097f8	0x004097f2
+0x004097f2	<>	jump!	.textlib/__ieee754_sqrtf/L__0_10242/0x00409806
+0x004097f4	<-
+0x004097f8	<-
+0x004097fc	->	jump?	.textlib/__ieee754_sqrtf/L__0_11522/0x004097f4	0x004097fe
+0x004097fe	<-
+0x00409806	<-
+0x0040982c	<-
+0x00409848	->	jump?	.textlib/__ieee754_sqrtf/L__0_13058/0x0040982c	0x0040984a
+0x0040984a	<-
+0x00409868	<-
+0x0040986e	->	rts!	<unknown> 
+0x00409870	<-
+0x00409874	->	call!	.textlib/__muls/0x00405ce8	0x00409878
+0x00409878	<-
+0x00409880	->	jump!	.textlib/__adds/0x00405cc0
+0x00409884	<-
+0x00409888	->	call!	.textlib/__subs/0x00405cf8	0x0040988c
+0x0040988c	<-
+0x00409892	->	jump!	.textlib/__divs/0x00405cc8
+}
+
+entry .textlib/__ieee754_pow/0x00409898 = {
+0x00409898	<-
+0x004098c8	->	jump?	.textlib/__ieee754_pow/L_BB36___ieee754_pow/0x00409ace	0x004098cc
+0x004098cc	<-
+0x004098dc	->	jump?	.textlib/__ieee754_pow/L__0_45314/0x00409954	0x004098de
+0x004098de	<-
+0x004098e6	->	jump?	.textlib/__ieee754_pow/L__0_45826/0x004098ec	0x004098e8
+0x004098e8	<-
+0x004098ea	->	jump?	.textlib/__ieee754_pow/L__0_45314/0x00409954	0x004098ec
+0x004098ec	<-
+0x004098f4	->	jump?	.textlib/__ieee754_pow/L_BB9___ieee754_pow/0x004099b8	0x004098f6
+0x004098f6	<-
+0x00409902	->	jump?	.textlib/__ieee754_pow/L_BB9___ieee754_pow/0x004099b8	0x00409904
+0x00409904	<-
+0x00409914	->	jump?	.textlib/__ieee754_pow/L_BB16___ieee754_pow/0x00409a50	0x00409916
+0x00409916	<-
+0x00409918	->	jump?	.textlib/__ieee754_pow/L__0_57346/0x004099bc	0x0040991a
+0x0040991a	<-
+0x0040991e	->	jump?	.textlib/__ieee754_pow/L__0_53506/0x0040999e	0x00409920
+0x00409920	<-
+0x00409934	->	jump?	.textlib/__ieee754_pow/L_BB36___ieee754_pow/0x00409ace	0x00409938
+0x00409938	<-
+0x0040993c	->	jump?	.textlib/__ieee754_pow/L_BB38___ieee754_pow/0x00409b14	0x00409940
+0x00409940	<-
+0x00409952	->	jump!	.textlib/__ieee754_pow/L_BB242___ieee754_pow/0x00409974
+0x00409954	<-
+0x00409962	->	jump?	.textlib/__ieee754_pow/L__0_49154/0x00409988	0x00409964
+0x00409964	<-
+0x00409966	->	jump!	.textlib/__ieee754_pow/L_BB242___ieee754_pow/0x00409974
+0x00409968	<-
+0x00409974	<-
+0x00409986	->	rts!	<unknown> 
+0x00409988	<-
+0x0040999a	->	jump!	.textlib/nan/0x0040a984
+0x0040999e	<-
+0x004099a8	->	jump?	.textlib/__ieee754_pow/L__0_55554/0x00409a1e	0x004099aa
+0x004099aa	<-
+0x004099ac	->	jump?	.textlib/__ieee754_pow/L_BB45___ieee754_pow/0x0040a5b2	0x004099b0
+0x004099b0	<-
+0x004099b6	->	jump!	.textlib/__ieee754_pow/L_BB242___ieee754_pow/0x00409974
+0x004099b8	<-
+0x004099ba	->	jump!	.textlib/__ieee754_pow/L__0_45314/0x00409954
+0x004099bc	<-
+0x004099c0	->	call!	.textlib/fabs/0x0040a854	0x004099c4
+0x004099c4	<-
+0x004099d2	->	jump?	.textlib/__ieee754_pow/L__0_58114/0x00409a6e	0x004099d4
+0x004099d4	<-
+0x004099dc	->	jump?	.textlib/__ieee754_pow/L_BB60___ieee754_pow/0x00409a62	0x004099de
+0x004099de	<-
+0x004099e0	->	jump?	.textlib/__ieee754_pow/L__0_58626/0x004099fa	0x004099e2
+0x004099e2	<-
+0x004099f0	->	call!	.textlib/__divd/0x00405c90	0x004099f4
+0x004099f4	<-
+0x004099fa	<-
+0x004099fe	->	jump?	.textlib/__ieee754_pow/L_BB242___ieee754_pow/0x00409974	0x00409a00
+0x00409a00	<-
+0x00409a10	->	jump?	.textlib/__ieee754_pow/L_BB68___ieee754_pow/0x0040a106	0x00409a14
+0x00409a14	<-
+0x00409a1c	->	jump!	.textlib/__ieee754_pow/L_BB242___ieee754_pow/0x00409974
+0x00409a1e	<-
+0x00409a26	->	jump?	.textlib/__ieee754_pow/L_BB49___ieee754_pow/0x0040a412	0x00409a2a
+0x00409a2a	<-
+0x00409a3a	->	jump?	.textlib/__ieee754_pow/L__0_57346/0x004099bc	0x00409a3c
+0x00409a3c	<-
+0x00409a4c	->	jump!	.textlib/__ieee754_sqrt/0x0040a67c
+0x00409a50	<-
+0x00409a5a	->	jump?	.textlib/__ieee754_pow/L__0_50178/0x00409ad8	0x00409a5c
+0x00409a5c	<-
+0x00409a60	->	jump!	.textlib/__ieee754_pow/L__0_49410/0x00409916
+0x00409a62	<-
+0x00409a6c	->	jump?	.textlib/__ieee754_pow/L__0_83458/0x004099de	0x00409a6e
+0x00409a6e	<-
+0x00409a7c	->	jump?	.textlib/__ieee754_pow/L_BB75___ieee754_pow/0x0040a58a	0x00409a80
+0x00409a80	<-
+0x00409a8a	->	jump?	.textlib/__ieee754_pow/L__0_1794/0x00409b2a	0x00409a8c
+0x00409a8c	<-
+0x00409a9c	->	jump?	.textlib/__ieee754_pow/L__0_62978/0x00409ab2	0x00409a9e
+0x00409a9e	<-
+0x00409aa2	->	jump?	.textlib/__ieee754_pow/L_BB85___ieee754_pow/0x0040a5aa	0x00409aa6
+0x00409aa6	<-
+0x00409ab0	->	jump?	.textlib/__ieee754_pow/L_BB87___ieee754_pow/0x00409ac8	0x00409ab2
+0x00409ab2	<-
+0x00409ab6	->	jump?	.textlib/__ieee754_pow/L_BB85___ieee754_pow/0x0040a5aa	0x00409aba
+0x00409aba	<-
+0x00409ac4	->	jump?	.textlib/__ieee754_pow/L__0_1282/0x0040a46c	0x00409ac8
+0x00409ac8	<-
+0x00409acc	->	jump!	.textlib/__ieee754_pow/L_BB304___ieee754_pow/0x00409968
+0x00409ace	<-
+0x00409ad6	->	jump!	.textlib/__ieee754_pow/L_BB242___ieee754_pow/0x00409974
+0x00409ad8	<-
+0x00409ae2	->	jump?	.textlib/__ieee754_pow/L__0_49410/0x00409916	0x00409ae6
+0x00409ae6	<-
+0x00409afa	->	jump?	.textlib/__ieee754_pow/L__0_51202/0x0040a3e6	0x00409afe
+0x00409afe	<-
+0x00409b0e	->	jump?	.textlib/__ieee754_pow/L__0_81666/0x0040a402	0x00409b12
+0x00409b12	<>	jump!	.textlib/__ieee754_pow/L__0_49410/0x00409916
+0x00409b14	<-
+0x00409b28	->	jump!	.textlib/__ieee754_pow/L_BB242___ieee754_pow/0x00409974
+0x00409b2a	<-
+0x00409b30	->	jump?	.textlib/__ieee754_pow/L_BB104___ieee754_pow/0x0040a5c8	0x00409b34
+0x00409b34	<-
+0x00409b36	<-
+0x00409b5c	->	jump?	.textlib/__ieee754_pow/L__0_66562/0x00409b62	0x00409b5e
+0x00409b5e	<-
+0x00409b60	->	jump!	.textlib/__ieee754_pow/L__0_66818/0x00409b7e
+0x00409b62	<-
+0x00409b7e	<-
+0x00409ba8	->	call!	.textlib/__addd/0x00405c88	0x00409bac
+0x00409bac	<-
+0x00409bc8	->	call!	.textlib/__subd/0x00405cb8	0x00409bcc
+0x00409bcc	<-
+0x00409bea	->	call!	.textlib/__divd/0x00405c90	0x00409bee
+0x00409bee	<-
+0x00409c06	->	call!	.textlib/__muld/0x00405cb0	0x00409c0a
+0x00409c0a	<-
+0x00409c3c	->	call!	.textlib/__muld/0x00405cb0	0x00409c40
+0x00409c40	<-
+0x00409c58	->	call!	.textlib/__subd/0x00405cb8	0x00409c5c
+0x00409c5c	<-
+0x00409c74	->	call!	.textlib/__subd/0x00405cb8	0x00409c78
+0x00409c78	<-
+0x00409c8e	->	call!	.textlib/__subd/0x00405cb8	0x00409c92
+0x00409c92	<-
+0x00409c9c	->	call!	.textlib/__muld/0x00405cb0	0x00409ca0
+0x00409ca0	<-
+0x00409cb4	->	call!	.textlib/__subd/0x00405cb8	0x00409cb8
+0x00409cb8	<-
+0x00409cc2	->	call!	.textlib/__muld/0x00405cb0	0x00409cc6
+0x00409cc6	<-
+0x00409cd4	->	call!	.textlib/__muld/0x00405cb0	0x00409cd8
+0x00409cd8	<-
+0x00409cea	->	call!	.textlib/__addd/0x00405c88	0x00409cee
+0x00409cee	<-
+0x00409cf8	->	call!	.textlib/__muld/0x00405cb0	0x00409cfc
+0x00409cfc	<-
+0x00409d18	->	call!	.textlib/__muld/0x00405cb0	0x00409d1c
+0x00409d1c	<-
+0x00409d28	->	call!	.textlib/__addd/0x00405c88	0x00409d2c
+0x00409d2c	<-
+0x00409d38	->	call!	.textlib/__muld/0x00405cb0	0x00409d3c
+0x00409d3c	<-
+0x00409d48	->	call!	.textlib/__addd/0x00405c88	0x00409d4c
+0x00409d4c	<-
+0x00409d58	->	call!	.textlib/__muld/0x00405cb0	0x00409d5c
+0x00409d5c	<-
+0x00409d68	->	call!	.textlib/__addd/0x00405c88	0x00409d6c
+0x00409d6c	<-
+0x00409d78	->	call!	.textlib/__muld/0x00405cb0	0x00409d7c
+0x00409d7c	<-
+0x00409d88	->	call!	.textlib/__addd/0x00405c88	0x00409d8c
+0x00409d8c	<-
+0x00409d98	->	call!	.textlib/__muld/0x00405cb0	0x00409d9c
+0x00409d9c	<-
+0x00409da8	->	call!	.textlib/__addd/0x00405c88	0x00409dac
+0x00409dac	<-
+0x00409dc0	->	call!	.textlib/__muld/0x00405cb0	0x00409dc4
+0x00409dc4	<-
+0x00409dd0	->	call!	.textlib/__muld/0x00405cb0	0x00409dd4
+0x00409dd4	<-
+0x00409de0	->	call!	.textlib/__addd/0x00405c88	0x00409de4
+0x00409de4	<-
+0x00409df8	->	call!	.textlib/__muld/0x00405cb0	0x00409dfc
+0x00409dfc	<-
+0x00409e0c	->	call!	.textlib/__addd/0x00405c88	0x00409e10
+0x00409e10	<-
+0x00409e1c	->	call!	.textlib/__addd/0x00405c88	0x00409e20
+0x00409e20	<-
+0x00409e32	->	call!	.textlib/__muld/0x00405cb0	0x00409e36
+0x00409e36	<-
+0x00409e4a	->	call!	.textlib/__muld/0x00405cb0	0x00409e4e
+0x00409e4e	<-
+0x00409e64	->	call!	.textlib/__addd/0x00405c88	0x00409e68
+0x00409e68	<-
+0x00409e78	->	call!	.textlib/__subd/0x00405cb8	0x00409e7c
+0x00409e7c	<-
+0x00409e86	->	call!	.textlib/__subd/0x00405cb8	0x00409e8a
+0x00409e8a	<-
+0x00409e9a	->	call!	.textlib/__muld/0x00405cb0	0x00409e9e
+0x00409e9e	<-
+0x00409ea8	->	call!	.textlib/__addd/0x00405c88	0x00409eac
+0x00409eac	<-
+0x00409ec2	->	call!	.textlib/__addd/0x00405c88	0x00409ec6
+0x00409ec6	<-
+0x00409ed0	->	call!	.textlib/__wtod/0x00405ca0	0x00409ed4
+0x00409ed4	<-
+0x00409eea	->	call!	.textlib/__muld/0x00405cb0	0x00409eee
+0x00409eee	<-
+0x00409f0a	->	call!	.textlib/__muld/0x00405cb0	0x00409f0e
+0x00409f0e	<-
+0x00409f3a	->	call!	.textlib/__subd/0x00405cb8	0x00409f3e
+0x00409f3e	<-
+0x00409f62	->	call!	.textlib/__subd/0x00405cb8	0x00409f66
+0x00409f66	<-
+0x00409f76	->	call!	.textlib/__muld/0x00405cb0	0x00409f7a
+0x00409f7a	<-
+0x00409f86	->	call!	.textlib/__addd/0x00405c88	0x00409f8a
+0x00409f8a	<-
+0x00409f96	->	call!	.textlib/__addd/0x00405c88	0x00409f9a
+0x00409f9a	<-
+0x00409fac	->	call!	.textlib/__addd/0x00405c88	0x00409fb0
+0x00409fb0	<-
+0x00409fc0	->	call!	.textlib/__addd/0x00405c88	0x00409fc4
+0x00409fc4	<-
+0x00409fd4	->	call!	.textlib/__addd/0x00405c88	0x00409fd8
+0x00409fd8	<-
+0x00409fea	->	call!	.textlib/__subd/0x00405cb8	0x00409fee
+0x00409fee	<-
+0x00409ff2	->	call!	.textlib/__subd/0x00405cb8	0x00409ff6
+0x00409ff6	<-
+0x0040a004	->	call!	.textlib/__subd/0x00405cb8	0x0040a008
+0x0040a008	<-
+0x0040a010	->	call!	.textlib/__subd/0x00405cb8	0x0040a014
+0x0040a014	<-
+0x0040a042	->	call!	.textlib/__muld/0x00405cb0	0x0040a046
+0x0040a046	<-
+0x0040a056	->	call!	.textlib/__muld/0x00405cb0	0x0040a05a
+0x0040a05a	<-
+0x0040a06a	->	call!	.textlib/__subd/0x00405cb8	0x0040a06e
+0x0040a06e	<-
+0x0040a078	->	call!	.textlib/__muld/0x00405cb0	0x0040a07c
+0x0040a07c	<-
+0x0040a088	->	call!	.textlib/__addd/0x00405c88	0x0040a08c
+0x0040a08c	<-
+0x0040a094	->	call!	.textlib/__addd/0x00405c88	0x0040a098
+0x0040a098	<-
+0x0040a0b0	->	jump?	.textlib/__ieee754_pow/L_BB176___ieee754_pow/0x0040a42a	0x0040a0b4
+0x0040a0b4	<-
+0x0040a0c2	->	jump?	.textlib/__ieee754_pow/L__0_76802/0x0040a16e	0x0040a0c4
+0x0040a0c4	<-
+0x0040a0d4	->	jump?	.textlib/__ieee754_pow/L__0_76290/0x0040a5ec	0x0040a0d8
+0x0040a0d8	<-
+0x0040a0ee	->	call!	.textlib/__muld/0x00405cb0	0x0040a0f2
+0x0040a0f2	<-
+0x0040a102	->	jump!	.textlib/__muld/0x00405cb0
+0x0040a106	<-
+0x0040a112	->	call!	.textlib/__subd/0x00405cb8	0x0040a116
+0x0040a116	<-
+0x0040a11a	->	call!	.textlib/__divd/0x00405c90	0x0040a11e
+0x0040a11e	<-
+0x0040a124	->	jump!	.textlib/__ieee754_pow/L_BB242___ieee754_pow/0x00409974
+0x0040a128	<-
+0x0040a138	->	call!	.textlib/__addd/0x00405c88	0x0040a13c
+0x0040a13c	<-
+0x0040a150	->	call!	.textlib/__subd/0x00405cb8	0x0040a154
+0x0040a154	<-
+0x0040a160	->	call!	.textlib/__gtd/0x00405d20	0x0040a164
+0x0040a164	<-
+0x0040a166	->	jump?	.textlib/__ieee754_pow/L_BB184___ieee754_pow/0x0040a64c	0x0040a16a
+0x0040a16a	<-
+0x0040a16e	<-
+0x0040a178	->	jump?	.textlib/__ieee754_pow/L__0_77314/0x0040a1e2	0x0040a17a
+0x0040a17a	<-
+0x0040a1d8	->	call!	.textlib/__subd/0x00405cb8	0x0040a1dc
+0x0040a1dc	<-
+0x0040a1e0	->	jump!	.textlib/__ieee754_pow/L__0_77058/0x0040a1e6
+0x0040a1e2	<-
+0x0040a1e6	<-
+0x0040a1ee	->	call!	.textlib/__addd/0x00405c88	0x0040a1f2
+0x0040a1f2	<-
+0x0040a208	->	call!	.textlib/__muld/0x00405cb0	0x0040a20c
+0x0040a20c	<-
+0x0040a21e	->	call!	.textlib/__subd/0x00405cb8	0x0040a222
+0x0040a222	<-
+0x0040a236	->	call!	.textlib/__muld/0x00405cb0	0x0040a23a
+0x0040a23a	<-
+0x0040a24a	->	call!	.textlib/__subd/0x00405cb8	0x0040a24e
+0x0040a24e	<-
+0x0040a25a	->	call!	.textlib/__muld/0x00405cb0	0x0040a25e
+0x0040a25e	<-
+0x0040a26a	->	call!	.textlib/__addd/0x00405c88	0x0040a26e
+0x0040a26e	<-
+0x0040a27c	->	call!	.textlib/__addd/0x00405c88	0x0040a280
+0x0040a280	<-
+0x0040a28a	->	call!	.textlib/__subd/0x00405cb8	0x0040a28e
+0x0040a28e	<-
+0x0040a296	->	call!	.textlib/__subd/0x00405cb8	0x0040a29a
+0x0040a29a	<-
+0x0040a2a8	->	call!	.textlib/__muld/0x00405cb0	0x0040a2ac
+0x0040a2ac	<-
+0x0040a2bc	->	call!	.textlib/__muld/0x00405cb0	0x0040a2c0
+0x0040a2c0	<-
+0x0040a2cc	->	call!	.textlib/__addd/0x00405c88	0x0040a2d0
+0x0040a2d0	<-
+0x0040a2d8	->	call!	.textlib/__muld/0x00405cb0	0x0040a2dc
+0x0040a2dc	<-
+0x0040a2e8	->	call!	.textlib/__addd/0x00405c88	0x0040a2ec
+0x0040a2ec	<-
+0x0040a2f4	->	call!	.textlib/__muld/0x00405cb0	0x0040a2f8
+0x0040a2f8	<-
+0x0040a304	->	call!	.textlib/__addd/0x00405c88	0x0040a308
+0x0040a308	<-
+0x0040a310	->	call!	.textlib/__muld/0x00405cb0	0x0040a314
+0x0040a314	<-
+0x0040a320	->	call!	.textlib/__addd/0x00405c88	0x0040a324
+0x0040a324	<-
+0x0040a32c	->	call!	.textlib/__muld/0x00405cb0	0x0040a330
+0x0040a330	<-
+0x0040a338	->	call!	.textlib/__subd/0x00405cb8	0x0040a33c
+0x0040a33c	<-
+0x0040a348	->	call!	.textlib/__muld/0x00405cb0	0x0040a34c
+0x0040a34c	<-
+0x0040a360	->	call!	.textlib/__addd/0x00405c88	0x0040a364
+0x0040a364	<-
+0x0040a36c	->	call!	.textlib/__divd/0x00405c90	0x0040a370
+0x0040a370	<-
+0x0040a37e	->	call!	.textlib/__muld/0x00405cb0	0x0040a382
+0x0040a382	<-
+0x0040a38c	->	call!	.textlib/__addd/0x00405c88	0x0040a390
+0x0040a390	<-
+0x0040a398	->	call!	.textlib/__subd/0x00405cb8	0x0040a39c
+0x0040a39c	<-
+0x0040a3a0	->	call!	.textlib/__subd/0x00405cb8	0x0040a3a4
+0x0040a3a4	<-
+0x0040a3ae	->	call!	.textlib/__subd/0x00405cb8	0x0040a3b2
+0x0040a3b2	<-
+0x0040a3c4	->	jump?	.textlib/__ieee754_pow/L_BB235___ieee754_pow/0x0040a63c	0x0040a3c8
+0x0040a3c8	<-
+0x0040a3cc	<-
+0x0040a3e2	->	jump!	.textlib/__muld/0x00405cb0
+0x0040a3e6	<>	jump?	.textlib/__ieee754_pow/L__0_49410/0x00409916	0x0040a3ec
+0x0040a3ec	<-
+0x0040a3fe	->	jump?	.textlib/__ieee754_pow/L__0_49410/0x00409916	0x0040a402
+0x0040a402	<-
+0x0040a40e	->	jump!	.textlib/__ieee754_pow/L__0_49410/0x00409916
+0x0040a412	<-
+0x0040a426	->	jump!	.textlib/__muld/0x00405cb0
+0x0040a42a	<-
+0x0040a43a	->	jump?	.textlib/__ieee754_pow/L__0_74754/0x0040a128	0x0040a43e
+0x0040a43e	<-
+0x0040a454	->	call!	.textlib/__muld/0x00405cb0	0x0040a458
+0x0040a458	<-
+0x0040a468	->	jump!	.textlib/__muld/0x00405cb0
+0x0040a46c	<-
+0x0040a47a	->	call!	.textlib/__addd/0x00405c88	0x0040a47e
+0x0040a47e	<-
+0x0040a48e	->	call!	.textlib/__muld/0x00405cb0	0x0040a492
+0x0040a492	<-
+0x0040a4a0	->	call!	.textlib/__muld/0x00405cb0	0x0040a4a4
+0x0040a4a4	<-
+0x0040a4c0	->	call!	.textlib/__muld/0x00405cb0	0x0040a4c4
+0x0040a4c4	<-
+0x0040a4dc	->	call!	.textlib/__muld/0x00405cb0	0x0040a4e0
+0x0040a4e0	<-
+0x0040a4fa	->	call!	.textlib/__addd/0x00405c88	0x0040a4fe
+0x0040a4fe	<-
+0x0040a506	->	call!	.textlib/__muld/0x00405cb0	0x0040a50a
+0x0040a50a	<-
+0x0040a516	->	call!	.textlib/__subd/0x00405cb8	0x0040a51a
+0x0040a51a	<-
+0x0040a526	->	call!	.textlib/__muld/0x00405cb0	0x0040a52a
+0x0040a52a	<-
+0x0040a53e	->	call!	.textlib/__muld/0x00405cb0	0x0040a542
+0x0040a542	<-
+0x0040a54a	->	call!	.textlib/__addd/0x00405c88	0x0040a54e
+0x0040a54e	<-
+0x0040a55c	->	call!	.textlib/__addd/0x00405c88	0x0040a560
+0x0040a560	<-
+0x0040a570	->	call!	.textlib/__subd/0x00405cb8	0x0040a574
+0x0040a574	<-
+0x0040a57c	->	call!	.textlib/__subd/0x00405cb8	0x0040a580
+0x0040a580	<-
+0x0040a586	->	jump!	.textlib/__ieee754_pow/L__0_61186/0x0040a014
+0x0040a58a	<-
+0x0040a592	->	call!	.textlib/__subd/0x00405cb8	0x0040a596
+0x0040a596	<-
+0x0040a5a6	->	jump!	.textlib/__divd/0x00405c90
+0x0040a5aa	<-
+0x0040a5ae	->	jump!	.textlib/__ieee754_pow/L_BB304___ieee754_pow/0x00409968
+0x0040a5b2	<-
+0x0040a5c4	->	jump!	.textlib/__divd/0x00405c90
+0x0040a5c8	<-
+0x0040a5d6	->	call!	.textlib/__muld/0x00405cb0	0x0040a5da
+0x0040a5da	<-
+0x0040a5e8	->	jump!	.textlib/__ieee754_pow/L__0_65026/0x00409b36
+0x0040a5ec	<-
+0x0040a5f8	->	call!	.textlib/__subd/0x00405cb8	0x0040a5fc
+0x0040a5fc	<-
+0x0040a604	->	call!	.textlib/__led/0x00405d28	0x0040a608
+0x0040a608	<-
+0x0040a60a	->	jump?	.textlib/__ieee754_pow/L__0_76802/0x0040a16e	0x0040a60e
+0x0040a60e	<-
+0x0040a624	->	call!	.textlib/__muld/0x00405cb0	0x0040a628
+0x0040a628	<-
+0x0040a638	->	jump!	.textlib/__muld/0x00405cb0
+0x0040a63c	<-
+0x0040a642	->	call!	.textlib/scalbn/0x0040a998	0x0040a646
+0x0040a646	<-
+0x0040a64a	->	jump!	.textlib/__ieee754_pow/L__0_80386/0x0040a3cc
+0x0040a64c	<-
+0x0040a662	->	call!	.textlib/__muld/0x00405cb0	0x0040a666
+0x0040a666	<-
+0x0040a676	->	jump!	.textlib/__muld/0x00405cb0
+}
+
+entry .textlib/__ieee754_sqrt/0x0040a67c = {
+0x0040a67c	<-
+0x0040a698	->	jump?	.textlib/__ieee754_sqrt/L_BB2___ieee754_sqrt/0x0040a81c	0x0040a69c
+0x0040a69c	<-
+0x0040a69e	->	jump?	.textlib/__ieee754_sqrt/L_BB6___ieee754_sqrt/0x0040a810	0x0040a6a2
+0x0040a6a2	<-
+0x0040a6aa	->	jump?	.textlib/__ieee754_sqrt/L__0_17154/0x0040a6e0	0x0040a6ac
+0x0040a6ac	<-
+0x0040a6b2	->	jump?	.textlib/__ieee754_sqrt/L__0_17666/0x0040a6c4	0x0040a6b4
+0x0040a6b4	<-
+0x0040a6c2	->	jump?	.textlib/__ieee754_sqrt/L__0_18178/0x0040a6b4	0x0040a6c4
+0x0040a6c4	<-
+0x0040a6c6	->	jump!	.textlib/__ieee754_sqrt/L__0_19202/0x0040a6cc
+0x0040a6c8	<-
+0x0040a6cc	<-
+0x0040a6d0	->	jump?	.textlib/__ieee754_sqrt/L__0_19458/0x0040a6c8	0x0040a6d2
+0x0040a6d2	<-
+0x0040a6e0	<-
+0x0040a728	<-
+0x0040a754	->	jump?	.textlib/__ieee754_sqrt/L__0_20994/0x0040a728	0x0040a756
+0x0040a756	<-
+0x0040a760	<-
+0x0040a768	->	jump?	.textlib/__ieee754_sqrt/L__0_27650/0x0040a77c	0x0040a76a
+0x0040a76a	<-
+0x0040a772	->	jump?	.textlib/__ieee754_sqrt/L__0_27906/0x0040a7ac	0x0040a774
+0x0040a774	<-
+0x0040a778	->	jump?	.textlib/__ieee754_sqrt/L__0_27906/0x0040a7ac	0x0040a77a
+0x0040a77a	<>	jump!	.textlib/__ieee754_sqrt/L__0_13570/0x0040a780
+0x0040a77c	<-
+0x0040a780	<-
+0x0040a794	->	jump?	.textlib/__ieee754_sqrt/L__0_28418/0x0040a7a0	0x0040a796
+0x0040a796	<-
+0x0040a7a0	<-
+0x0040a7ac	<-
+0x0040a7c0	->	jump?	.textlib/__ieee754_sqrt/L__0_22530/0x0040a760	0x0040a7c2
+0x0040a7c2	<-
+0x0040a7ca	->	jump?	.textlib/__ieee754_sqrt/L__0_24578/0x0040a7e0	0x0040a7cc
+0x0040a7cc	<-
+0x0040a7e0	<-
+0x0040a804	<-
+0x0040a80e	->	rts!	<unknown> 
+0x0040a810	<-
+0x0040a818	->	jump?	.textlib/__ieee754_sqrt/L__0_16386/0x0040a836	0x0040a81a
+0x0040a81a	<>	jump!	.textlib/__ieee754_sqrt/L_BB46___ieee754_sqrt/0x0040a804
+0x0040a81c	<-
+0x0040a820	->	call!	.textlib/__muld/0x00405cb0	0x0040a824
+0x0040a824	<-
+0x0040a832	->	jump!	.textlib/__addd/0x00405c88
+0x0040a836	<-
+0x0040a838	->	jump?	.textlib/__ieee754_sqrt/L__0_16898/0x0040a6a2	0x0040a83a
+0x0040a83a	<-
+0x0040a840	->	call!	.textlib/__subd/0x00405cb8	0x0040a844
+0x0040a844	<-
+0x0040a84e	->	jump!	.textlib/__divd/0x00405c90
+}
+
+entry .textlib/fabs/0x0040a854 = {
+0x0040a854	<-
+0x0040a866	->	rts!	<unknown> 
+}
+
+entry .textlib/fabsf/0x0040a868 = {
+0x0040a868	<-
+0x0040a86c	->	rts!	<unknown> 
+}
+
+entry .textlib/nanf/0x0040a870 = {
+0x0040a870	<-
+0x0040a876	->	rts!	<unknown> 
+}
+
+entry .textlib/scalbnf/0x0040a878 = {
+0x0040a878	<-
+0x0040a88e	->	jump?	.textlib/scalbnf/L_BB27_scalbnf/0x0040a8c0	0x0040a890
+0x0040a890	<-
+0x0040a89e	->	jump?	.textlib/scalbnf/L_BB4_scalbnf/0x0040a93c	0x0040a8a0
+0x0040a8a0	<-
+0x0040a8a2	->	jump?	.textlib/scalbnf/L_BB7_scalbnf/0x0040a8f0	0x0040a8a4
+0x0040a8a4	<-
+0x0040a8ac	->	jump?	.textlib/scalbnf/L_BB12_scalbnf/0x0040a94c	0x0040a8ae
+0x0040a8ae	<-
+0x0040a8b4	->	jump?	.textlib/scalbnf/L__0_12546/0x0040a8c8	0x0040a8b6
+0x0040a8b6	<-
+0x0040a8c0	<-
+0x0040a8c6	->	rts!	<unknown> 
+0x0040a8c8	<-
+0x0040a8cc	->	jump?	.textlib/scalbnf/L__0_15362/0x0040a966	0x0040a8ce
+0x0040a8ce	<-
+0x0040a8d4	->	jump?	.textlib/scalbnf/L__0_14594/0x0040a922	0x0040a8d6
+0x0040a8d6	<-
+0x0040a8de	->	call!	.textlib/copysignf/0x0040ab6c	0x0040a8e2
+0x0040a8e2	<-
+0x0040a8ec	->	jump!	.textlib/__muls/0x00405ce8
+0x0040a8f0	<-
+0x0040a8f8	->	call!	.textlib/__muls/0x00405ce8	0x0040a8fc
+0x0040a8fc	<-
+0x0040a910	->	jump?	.textlib/scalbnf/L__0_11778/0x0040a8a4	0x0040a912
+0x0040a912	<-
+0x0040a91e	->	jump!	.textlib/__muls/0x00405ce8
+0x0040a922	<-
+0x0040a92a	->	call!	.textlib/copysignf/0x0040ab6c	0x0040a92e
+0x0040a92e	<-
+0x0040a938	->	jump!	.textlib/__muls/0x00405ce8
+0x0040a93c	<-
+0x0040a948	->	jump!	.textlib/__muls/0x00405ce8
+0x0040a94c	<-
+0x0040a954	->	call!	.textlib/copysignf/0x0040ab6c	0x0040a958
+0x0040a958	<-
+0x0040a962	->	jump!	.textlib/__muls/0x00405ce8
+0x0040a966	<-
+0x0040a980	->	jump!	.textlib/__muls/0x00405ce8
+}
+
+entry .textlib/nan/0x0040a984 = {
+0x0040a984	<-
+0x0040a996	->	rts!	<unknown> 
+}
+
+entry .textlib/scalbn/0x0040a998 = {
+0x0040a998	<-
+0x0040a9c2	->	jump?	.textlib/scalbn/L__0_11266/0x0040aa12	0x0040a9c4
+0x0040a9c4	<-
+0x0040a9ce	->	jump?	.textlib/scalbn/L__0_9730/0x0040a9e0	0x0040a9d0
+0x0040a9d0	<-
+0x0040a9de	->	rts!	<unknown> 
+0x0040a9e0	<-
+0x0040a9ec	->	call!	.textlib/__muld/0x00405cb0	0x0040a9f0
+0x0040a9f0	<-
+0x0040aa10	->	jump?	.textlib/scalbn/L_BB6_scalbn/0x0040aafa	0x0040aa12
+0x0040aa12	<-
+0x0040aa18	->	jump?	.textlib/scalbn/L_BB9_scalbn/0x0040aa84	0x0040aa1a
+0x0040aa1a	<-
+0x0040aa20	->	jump?	.textlib/scalbn/L_BB12_scalbn/0x0040aacc	0x0040aa22
+0x0040aa22	<-
+0x0040aa2c	->	jump?	.textlib/scalbn/L__0_12546/0x0040aa44	0x0040aa2e
+0x0040aa2e	<-
+0x0040aa42	->	jump!	.textlib/scalbn/L_BB27_scalbn/0x0040a9d0
+0x0040aa44	<-
+0x0040aa4c	->	jump?	.textlib/scalbn/L__0_1794/0x0040ab14	0x0040aa4e
+0x0040aa4e	<-
+0x0040aa54	->	jump?	.textlib/scalbn/L__0_14594/0x0040aa9e	0x0040aa56
+0x0040aa56	<-
+0x0040aa6a	->	call!	.textlib/copysign/0x0040ab44	0x0040aa6e
+0x0040aa6e	<-
+0x0040aa80	->	jump!	.textlib/__muld/0x00405cb0
+0x0040aa84	<-
+0x0040aa9a	->	jump!	.textlib/__muld/0x00405cb0
+0x0040aa9e	<-
+0x0040aab2	->	call!	.textlib/copysign/0x0040ab44	0x0040aab6
+0x0040aab6	<-
+0x0040aac8	->	jump!	.textlib/__muld/0x00405cb0
+0x0040aacc	<-
+0x0040aae0	->	call!	.textlib/copysign/0x0040ab44	0x0040aae4
+0x0040aae4	<-
+0x0040aaf6	->	jump!	.textlib/__muld/0x00405cb0
+0x0040aafa	<-
+0x0040ab10	->	jump!	.textlib/__muld/0x00405cb0
+0x0040ab14	<-
+0x0040ab3e	->	jump!	.textlib/__muld/0x00405cb0
+}
+
+entry .textlib/copysign/0x0040ab44 = {
+0x0040ab44	<-
+0x0040ab68	->	rts!	<unknown> 
+}
+
+entry .textlib/copysignf/0x0040ab6c = {
+0x0040ab6c	<-
+0x0040ab7a	->	rts!	<unknown> 
+}
+
+entry .textlib/ITC_Disable_Enable/0x0040ab80 = {
+0x0040ab80	<-
+0x0040ab8e	->	rts!	<unknown> 
+}
+
+entry .textlib/ITC_Init_Irq/0x0040ab90 = {
+0x0040ab90	<-
+0x0040aba2	->	jump?	.textlib/ITC_Init_Irq/L_BB2_ITC_Init_Irq/0x0040ac18	0x0040aba4
+0x0040aba4	<-
+0x0040abf2	->	jump?	.textlib/ITC_Init_Irq/L__0_4866/0x0040ac00	0x0040abf4
+0x0040abf4	<-
+0x0040ac00	<-
+0x0040ac12	->	jump!	.textlib/ITC_Init_Handler/0x0040ac38
+0x0040ac18	<-
+0x0040ac1e	->	rts!	<unknown> 
+}
+
+entry .textlib/STxP70_Set_Iml/0x0040ac20 = {
+0x0040ac20	<-
+0x0040ac32	->	rts!	<unknown> 
+}
+
+entry .textlib/ITC_Init_Handler/0x0040ac38 = {
+0x0040ac38	<-
+0x0040ac90	->	rts!	<unknown> 
+}
+
+entry .text/BRUCE_init/0x0040ac98 = {
+0x0040ac98	<-
+0x0040ac9a	->	rts!	<unknown> 
+}
+
+entry .text/BRUCE_configure/0x0040aca0 = {
+0x0040aca0	<-
+0x0040acaa	->	jump?	.text/BRUCE_configure/.LBB1_21/0x0040adc8	0x0040acac
+0x0040acac	<-
+0x0040acb4	->	jump?	.text/BRUCE_configure/.LBB1_21/0x0040adc8	0x0040acb6
+0x0040acb6	<-
+0x0040acbe	->	jump?	.text/BRUCE_configure/.LBB1_23/0x0040aea0	0x0040acc2
+0x0040acc2	<-
+0x0040acda	->	jump?	.text/BRUCE_configure/.LBB1_4/0x0040ae70	0x0040acdc
+0x0040acdc	<-
+0x0040ace6	->	jump?	.text/BRUCE_configure/.LBB1_4/0x0040ae70	0x0040ace8
+0x0040ace8	<-
+0x0040ad20	->	jump?	.text/BRUCE_configure/.LBB1_8/0x0040ae10	0x0040ad22
+0x0040ad22	<-
+0x0040ad28	->	jump?	.text/BRUCE_configure/.LBB1_11/0x0040aed8	0x0040ad2c
+0x0040ad2c	<-
+0x0040ad44	->	jump?	.text/BRUCE_configure/.LBB1_8/0x0040ae10	0x0040ad46
+0x0040ad46	<-
+0x0040ad56	->	jump?	.text/BRUCE_configure/.LBB1_14/0x0040ae40	0x0040ad58
+0x0040ad58	<-
+0x0040ad64	->	jump?	.text/BRUCE_configure/.LBB1_14/0x0040ae40	0x0040ad66
+0x0040ad66	<-
+0x0040ad82	->	jump?	.text/BRUCE_configure/.LBB1_8/0x0040ae10	0x0040ad84
+0x0040ad84	<-
+0x0040ad94	->	jump?	.text/BRUCE_configure/.LBB1_14/0x0040ae40	0x0040ad96
+0x0040ad96	<-
+0x0040ada2	->	jump?	.text/BRUCE_configure/.LBB1_24/0x0040af18	0x0040ada4
+0x0040ada4	<-
+0x0040adc2	->	jump?	.text/BRUCE_configure/.LBB1_20/0x0040af50	0x0040adc8
+0x0040adc8	<-
+0x0040add0	->	jump?	.text/BRUCE_configure/.LBB1_25/0x0040add8	0x0040add2
+0x0040add2	<-
+0x0040add6	->	rts!	<unknown> 
+0x0040add8	<-
+0x0040adee	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040adf2
+0x0040adf2	<-
+0x0040ae08	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040ae0c
+0x0040ae0c	<>	call!	.textlib/abort/0x0040243c	0x0040ae10
+0x0040ae10	<-
+0x0040ae26	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040ae2a
+0x0040ae2a	<-
+0x0040ae3e	->	jump!	.text/BRUCE_configure/.LBB1_9/0x0040af80
+0x0040ae40	<-
+0x0040ae56	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040ae5a
+0x0040ae5a	<-
+0x0040ae6e	->	jump!	.text/BRUCE_configure/.LBB1_5/0x0040af08
+0x0040ae70	<-
+0x0040ae86	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040ae8a
+0x0040ae8a	<-
+0x0040ae9c	->	jump!	.text/BRUCE_configure/.LBB1_5/0x0040af08
+0x0040aea0	<-
+0x0040aeb6	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040aeba
+0x0040aeba	<-
+0x0040aecc	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040aed2
+0x0040aed2	<>	call!	.textlib/abort/0x0040243c	0x0040aed8
+0x0040aed8	<-
+0x0040aeee	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040aef2
+0x0040aef2	<-
+0x0040af08	<-
+0x0040af0c	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040af12
+0x0040af12	<>	call!	.textlib/abort/0x0040243c	0x0040af18
+0x0040af18	<-
+0x0040af2e	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040af32
+0x0040af32	<-
+0x0040af48	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040af4c
+0x0040af4c	<>	call!	.textlib/abort/0x0040243c	0x0040af50
+0x0040af50	<-
+0x0040af66	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040af6a
+0x0040af6a	<-
+0x0040af80	<-
+0x0040af82	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040af86
+0x0040af86	<>	call!	.textlib/abort/0x0040243c	0x0040af8a
+0x0040af8a	<-
+}
+
+entry .text/BRUCE_defect/0x0040af90 = {
+0x0040af90	<-
+0x0040af9c	->	jump?	.text/BRUCE_defect/.LBB2_12/0x0040b040	0x0040af9e
+0x0040af9e	<-
+0x0040afa2	->	jump?	.text/BRUCE_defect/.LBB2_10/0x0040aff8	0x0040afa4
+0x0040afa4	<-
+0x0040afa8	->	jump?	.text/BRUCE_defect/.LBB2_13/0x0040b0b0	0x0040afaa
+0x0040afaa	<-
+0x0040afb2	->	jump?	.text/BRUCE_defect/.LBB2_4/0x0040b0e8	0x0040afb4
+0x0040afb4	<-
+0x0040afc6	->	jump?	.text/BRUCE_defect/.LBB2_7/0x0040b010	0x0040afc8
+0x0040afc8	<-
+0x0040afd4	->	jump?	.text/BRUCE_defect/.LBB2_7/0x0040b010	0x0040afd6
+0x0040afd6	<-
+0x0040aff8	<-
+0x0040b008	->	jump?	.text/BRUCE_defect/.LBB2_14/0x0040b078	0x0040b00a
+0x0040b00a	<-
+0x0040b00e	->	rts!	<unknown> 
+0x0040b010	<-
+0x0040b026	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b02a
+0x0040b02a	<-
+0x0040b03e	->	jump!	.text/BRUCE_defect/.LBB2_5/0x0040b118
+0x0040b040	<-
+0x0040b056	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b05a
+0x0040b05a	<-
+0x0040b070	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b074
+0x0040b074	<>	call!	.textlib/abort/0x0040243c	0x0040b078
+0x0040b078	<-
+0x0040b08e	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b092
+0x0040b092	<-
+0x0040b0a8	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b0ac
+0x0040b0ac	<>	call!	.textlib/abort/0x0040243c	0x0040b0b0
+0x0040b0b0	<-
+0x0040b0c6	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b0ca
+0x0040b0ca	<-
+0x0040b0dc	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b0e2
+0x0040b0e2	<>	call!	.textlib/abort/0x0040243c	0x0040b0e8
+0x0040b0e8	<-
+0x0040b0fe	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b102
+0x0040b102	<-
+0x0040b118	<-
+0x0040b11a	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b11e
+0x0040b11e	<>	call!	.textlib/abort/0x0040243c	0x0040b122
+0x0040b122	<-
+}
+
+entry .text/CRM_init/0x0040b128 = {
+0x0040b128	<-
+0x0040b148	->	call!	.textlib/__divuw/0x00400288	0x0040b14c
+0x0040b14c	<-
+0x0040b166	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b16a
+0x0040b16a	<-
+0x0040b17c	->	jump?	.text/CRM_init/.LBB0_4/0x0040b200	0x0040b17e
+0x0040b17e	<-
+0x0040b18c	->	jump?	.text/CRM_init/.LBB0_5/0x0040b230	0x0040b18e
+0x0040b18e	<-
+0x0040b1a0	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b1a4
+0x0040b1a4	<-
+0x0040b1c6	->	jump?	.text/CRM_init/.LBB0_6/0x0040b268	0x0040b1c8
+0x0040b1c8	<-
+0x0040b1da	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b1de
+0x0040b1de	<-
+0x0040b1fa	->	jump!	.text/PLATFORM_trace/0x004118b0
+0x0040b200	<-
+0x0040b214	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b218
+0x0040b218	<-
+0x0040b226	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b22a
+0x0040b22a	<>	call!	.textlib/abort/0x0040243c	0x0040b230
+0x0040b230	<-
+0x0040b246	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b24a
+0x0040b24a	<-
+0x0040b260	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b264
+0x0040b264	<>	call!	.textlib/abort/0x0040243c	0x0040b268
+0x0040b268	<-
+0x0040b27e	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b282
+0x0040b282	<-
+0x0040b298	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b29c
+0x0040b29c	<>	call!	.textlib/abort/0x0040243c	0x0040b2a0
+}
+
+entry .text/CRM_configure/0x0040b2a0 = {
+0x0040b2a0	<-
+0x0040b2a8	->	jump?	.text/CRM_configure/.LBB1_1/0x0040b610	0x0040b2ac
+0x0040b2ac	<-
+0x0040b2b0	->	jump?	.text/CRM_configure/.LBB1_5/0x0040b4f8	0x0040b2b4
+0x0040b2b4	<-
+0x0040b2bc	->	jump?	.text/CRM_configure/.LBB1_5/0x0040b4f8	0x0040b2c0
+0x0040b2c0	<-
+0x0040b2ca	->	jump?	.text/CRM_configure/.LBB1_7/0x0040b5b0	0x0040b2ce
+0x0040b2ce	<-
+0x0040b2d8	->	jump?	.text/CRM_configure/.LBB1_7/0x0040b5b0	0x0040b2dc
+0x0040b2dc	<-
+0x0040b2e2	->	call!	.textlib/__divuw/0x00400288	0x0040b2e6
+0x0040b2e6	<-
+0x0040b2ee	->	call!	.textlib/__divuw/0x00400288	0x0040b2f2
+0x0040b2f2	<-
+0x0040b30c	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b310
+0x0040b310	<-
+0x0040b322	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b326
+0x0040b326	<-
+0x0040b336	->	call!	.textlib/__mulul/0x00400300	0x0040b33a
+0x0040b33a	<-
+0x0040b33c	->	jump?	.text/CRM_configure/.LBB1_10/0x0040b638	0x0040b340
+0x0040b340	<-
+0x0040b344	->	call!	.textlib/__mulw/0x004003e8	0x0040b348
+0x0040b348	<-
+0x0040b354	->	call!	.textlib/__divuw/0x00400288	0x0040b358
+0x0040b358	<-
+0x0040b372	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b376
+0x0040b376	<-
+0x0040b384	->	jump?	.text/CRM_configure/.LBB1_31/0x0040b5d8	0x0040b388
+0x0040b388	<-
+0x0040b396	->	jump?	.text/CRM_configure/.LBB1_31/0x0040b5d8	0x0040b39c
+0x0040b39c	<-
+0x0040b3a8	<-
+0x0040b3b4	->	call!	.textlib/__mulul/0x00400300	0x0040b3b8
+0x0040b3b8	<-
+0x0040b3ba	->	jump?	.text/CRM_configure/.LBB1_15/0x0040b530	0x0040b3bc
+0x0040b3bc	<-
+0x0040b3be	->	jump?	.text/CRM_configure/.LBB1_14/0x0040b3a8	0x0040b3c0
+0x0040b3c0	<-
+0x0040b3d4	->	jump?	.text/CRM_configure/.LBB1_18/0x0040b660	0x0040b3d8
+0x0040b3d8	<-
+0x0040b3ea	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b3ee
+0x0040b3ee	<-
+0x0040b3f8	->	call!	.textlib/__divuw/0x00400288	0x0040b3fc
+0x0040b3fc	<-
+0x0040b416	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b41a
+0x0040b41a	<-
+0x0040b42c	->	jump?	.text/CRM_configure/.LBB1_21/0x0040b580	0x0040b42e
+0x0040b42e	<-
+0x0040b43e	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b442
+0x0040b442	<-
+0x0040b454	->	call!	.textlib/__mulw/0x004003e8	0x0040b458
+0x0040b458	<-
+0x0040b468	<-
+0x0040b46c	->	jump?	.text/CRM_configure/.LBB1_24/0x0040b558	0x0040b46e
+0x0040b46e	<-
+0x0040b472	->	call!	.textlib/__divuw/0x00400288	0x0040b476
+0x0040b476	<-
+0x0040b47e	->	jump?	.text/CRM_configure/.LBB1_23/0x0040b468	0x0040b480
+0x0040b480	<-
+0x0040b494	->	jump?	.text/CRM_configure/.LBB1_21/0x0040b580	0x0040b496
+0x0040b496	<-
+0x0040b4a8	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b4ac
+0x0040b4ac	<-
+0x0040b4b8	->	jump?	.text/CRM_configure/.LBB1_29/0x0040b4c8	0x0040b4ba
+0x0040b4ba	<-
+0x0040b4c8	<-
+0x0040b4d8	->	jump?	.text/CRM_configure/.LBB1_21/0x0040b580	0x0040b4da
+0x0040b4da	<-
+0x0040b4f2	->	jump!	.text/PLATFORM_trace/0x004118b0
+0x0040b4f8	<-
+0x0040b50e	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b514
+0x0040b514	<-
+0x0040b520	<-
+0x0040b526	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b52a
+0x0040b52a	<>	call!	.textlib/abort/0x0040243c	0x0040b530
+0x0040b530	<-
+0x0040b546	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b54a
+0x0040b54a	<-
+0x0040b554	->	jump!	.text/CRM_configure/.LBB1_2/0x0040b520
+0x0040b558	<-
+0x0040b56e	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b572
+0x0040b572	<-
+0x0040b57c	->	jump!	.text/CRM_configure/.LBB1_2/0x0040b520
+0x0040b580	<-
+0x0040b596	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b59a
+0x0040b59a	<-
+0x0040b5ae	->	jump!	.text/CRM_configure/.LBB1_19/0x0040b690
+0x0040b5b0	<-
+0x0040b5c4	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b5c8
+0x0040b5c8	<-
+0x0040b5d2	->	jump!	.text/CRM_configure/.LBB1_2/0x0040b520
+0x0040b5d8	<-
+0x0040b5ee	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b5f2
+0x0040b5f2	<-
+0x0040b608	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b60c
+0x0040b60c	<>	call!	.textlib/abort/0x0040243c	0x0040b610
+0x0040b610	<-
+0x0040b626	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b62a
+0x0040b62a	<-
+0x0040b634	->	jump!	.text/CRM_configure/.LBB1_2/0x0040b520
+0x0040b638	<-
+0x0040b64e	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b652
+0x0040b652	<-
+0x0040b65c	->	jump!	.text/CRM_configure/.LBB1_2/0x0040b520
+0x0040b660	<-
+0x0040b676	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b67a
+0x0040b67a	<-
+0x0040b690	<-
+0x0040b692	->	call!	.text/PLATFORM_trace/0x004118b0	0x0040b696
+0x0040b696	<>	call!	.textlib/abort/0x0040243c	0x0040b69a
+0x0040b69a	<-
+}
