@@ -42,3 +42,20 @@ let read_file f =
 
 read_file "calltree.txt";;
 Hashtbl.iter (fun x y -> Printf.printf "entry=%s is called by %s at %s\n" x y.by y.address) callsites;;
+
+let rec reverse l_candidat l_result l_alreadyseen = 
+        List.iter (fun x -> Printf.printf "reverse : %s @ %s\n" x.by x.address) l_candidat;
+        match l_candidat with
+        | [] -> l_result
+        | x::l_c -> 
+                    if List.mem x.by l_alreadyseen then
+                        reverse l_c l_result l_alreadyseen
+                    else 
+                        let (l_text,l_remain) = Hashtbl.find_all callsites x.by |> 
+                               List.partition (fun t -> String.sub t.by 0 6 = ".text/") 
+                        in
+                        reverse (l_c@l_remain ) (l_text@l_result) (x.by::l_alreadyseen);;
+
+
+let call = reverse [{by = ".textlib/__int32_lt_float32_float32/0x00406190";address="";calltype=Else}] [] [];;
+List.iter (fun x -> Printf.printf "%s @ %s\n" x.by x.address) call;;
